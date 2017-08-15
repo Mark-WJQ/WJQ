@@ -1,4 +1,4 @@
-package com.wecash.wjq.enump;
+package com.test.wjq.enump;
 
 /**
  * Created by Administrator on 2016/11/23.

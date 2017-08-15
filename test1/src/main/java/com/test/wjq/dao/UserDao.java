@@ -1,6 +1,6 @@
-package com.wecash.wjq.dao;
+package com.test.wjq.dao;
 
-import com.wecash.wjq.bean.User;
+import com.test.wjq.bean.User;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

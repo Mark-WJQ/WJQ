@@ -1,7 +1,4 @@
-import com.wecash.wjq.controller.FirstClass;
-import com.wecash.wjq.service.UserService;
-import org.apache.log4j.Logger;
-import org.apache.log4j.chainsaw.Main;
+import com.test.wjq.controller.FirstClass;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,14 +8,12 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.MockMvcBuilder;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 import javax.servlet.ServletContext;
-import java.io.FileOutputStream;
 import java.math.BigDecimal;
 
 /**

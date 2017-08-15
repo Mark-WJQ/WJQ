@@ -1,4 +1,6 @@
-package com.wecash.wjq;
+package com.test.wjq;
+
+import com.github.kevinsawicki.http.HttpRequest;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -38,8 +40,9 @@ public class test {
         keyMap.put("id","1000");
         keyMap.put("name","1000");
         System.out.println(service.getExecuteSql(sql,keyMap));*/
-        testMethod(1);
-      System.out.println(new Integer(1) != 1);
+        //testMethod(1);
+      //System.out.println(new Integer(1) != 1);
+        HttpRequest.post("").trustAllCerts();
 
     }
 

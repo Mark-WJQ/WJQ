@@ -1,4 +1,4 @@
-package com.wecash.wjq;
+package com.test.wjq;
 
 import java.util.ArrayList;
 import java.util.List;

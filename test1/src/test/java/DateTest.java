@@ -1,4 +1,4 @@
-import com.wecash.wjq.enump.EnumTest;
+import com.test.wjq.enump.EnumTest;
 
 import java.util.Date;
 import java.util.EnumMap;

@@ -1,7 +1,6 @@
-package com.wecash.wjq.service;
+package com.test.wjq.service;
 
-import com.wecash.wjq.bean.User;
-import org.springframework.stereotype.Service;
+import com.test.wjq.bean.User;
 
 import java.util.List;
 import java.util.Map;

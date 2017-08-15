@@ -1,4 +1,4 @@
-package com.wecash.wjq.bean;
+package com.test.wjq.bean;
 
 import lombok.Data;
 import lombok.Getter;

@@ -26,10 +26,12 @@ public class HttpTest {
     private static Logger log = LoggerFactory.getLogger(HttpTest.class);
     private static final String CHARSET = "UTF-8";
     private static final int TIME_OUT = 60000;
-    //private static final String salt = "c8353bdce7bb7371eec9bac721edf49b";
-    private static final String salt = "676c4f4f3b910eb639de0dacde085f97";
-   // private static final String channel = "MDTX";
-    private static final String channel = "MDTX0001";
+    private static final String salt = "c8353bdce7bb7371eec9bac721edf49b";
+    //private static final String salt = "676c4f4f3b910eb639de0dacde085f97";
+    //private static final String salt =  "bef4f4520a604a580d0d242432af3f46";
+    private static final String channel = "MDTX";
+   // private static final String channel = "MDTX0001";
+   // private static final String channel = "XJXC001";
 
 
 
@@ -39,20 +41,19 @@ public class HttpTest {
 
     public static void main(String[] args){
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("orderno","MDTX2017052742700889233");
+        jsonObject.put("orderno","MDTX2017070553490640532");
        //jsonObject.put("approveResult","success");
        /* jsonObject.put("approveResult","fail");
         jsonObject.put("errorCode","0001");
         jsonObject.put("errorDescription","逾期率变化");*/
 
-      /*  jsonObject.put("payResult","fail");
+        jsonObject.put("payResult","fail");
         jsonObject.put("errorCode","0001");
-        jsonObject.put("errorDescription","放款失败");
-        jsonObject.put("errorDescription","任性");*/
+        jsonObject.put("errorDescription","补充信息丢失");
 
-        jsonObject.put("payResult","success");
-        jsonObject.put("repayments","[{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-06-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":1,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-07-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":2,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-08-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":3,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-09-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":4,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-10-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":5,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-11-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":6,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-07-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":7,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-08-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":8,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-09-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":9,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-10-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":10,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-11-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":11,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0}]");
-       /* jsonObject.put("loanAmount","1275");
+       // jsonObject.put("payResult","success");
+        //jsonObject.put("repayments","[{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-06-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":1,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-07-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":2,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-08-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":3,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-09-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":4,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-10-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":5,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-11-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":6,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-07-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":7,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-08-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":8,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-09-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":9,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-10-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":10,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0},{\"realAmount\":0,\"overdueAmount\":0,\"shouldDate\":\"2017-11-25\",\"remainAmount\":61.47,\"overdueDay\":0,\"periods\":11,\"repaymentStatus\":0,\"shouldAmount\":61.47,\"historyIsOverdue\":0}]");
+        /*jsonObject.put("loanAmount","1275");
         jsonObject.put("loanDate","2017-03-09 18:43:19");
         jsonObject.put("orderno","93214890561991616");
         jsonObject.put("periods","1");
@@ -65,8 +66,7 @@ public class HttpTest {
         jsonObject.put("phone","18885456987");
         List<JSONObject> js = new ArrayList<JSONObject>();
         js.add(jsonObject);*/
-        String jsonData = JSONObject.toJSONString(jsonObject);
-
+        String jsonData = jsonObject.toString();
         System.out.println(jsonData);
 
         String sign =  MD5Util.convertMD5(jsonData,salt);

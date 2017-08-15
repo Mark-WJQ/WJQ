@@ -1,12 +1,11 @@
-package com.wecash.wjq.service.serviceImpl;
+package com.test.wjq.service.serviceImpl;
 
-import com.wecash.wjq.bean.User;
-import com.wecash.wjq.dao.UserDao;
-import com.wecash.wjq.service.UserService;
+import com.test.wjq.dao.UserDao;
+import com.test.wjq.bean.User;
+import com.test.wjq.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.math.BigDecimal;
 import java.util.List;
 import java.util.Map;
 

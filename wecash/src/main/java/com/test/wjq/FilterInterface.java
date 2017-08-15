@@ -1,4 +1,4 @@
-package com.wecash.wjq;
+package com.test.wjq;
 
 /**
  * Created by Administrator on 2017/4/28.
