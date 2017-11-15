@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Wecash-WJQ</groupId>
+    <groupId>wetest-WJQ</groupId>
     <artifactId>WJQ</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
@@ -16,7 +16,9 @@
         <module>httpDemo</module>
         <module>test-web</module>
         <module>data</module>
-        <module>wecash</module>
+        <module>wetest</module>
+        <module>test2</module>
+        <module>RPCTest</module>
     </modules>
 
     <properties>
@@ -326,7 +328,15 @@
             <version>5.6</version>
         </dependency>
 
-        </dependencies>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.8.5</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
     <repositories>
         <repository>
             <id>projectlombok.org</id>

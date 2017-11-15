@@ -77,5 +77,6 @@
     <orderEntry type="library" name="Maven: com.dangdang:elastic-job-example:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.14" level="project" />
     <orderEntry type="library" name="Maven: com.github.kevinsawicki:http-request:5.6" level="project" />
+    <orderEntry type="library" name="Maven: error:error:unknown" level="project" />
   </component>
 </module>
