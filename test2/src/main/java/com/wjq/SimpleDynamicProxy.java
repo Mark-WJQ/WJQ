@@ -3,6 +3,7 @@ package com.wjq;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.util.Map;
 import java.util.Objects;
 
 /**
@@ -88,6 +89,7 @@ class DynamicProxyHandler implements InvocationHandler {
         System.out.println("****** proxy :" + proxy.getClass() + ",method : " + method.getName() + ",args : " + args);
 
 
+        System.nanoTime();
 
         for (Method m : proxy.getClass().getMethods()){
             System.out.println(m.getName());

@@ -10,10 +10,12 @@
       <module fileurl="file://$PROJECT_DIR$/RPCTest/RPCTest.iml" filepath="$PROJECT_DIR$/RPCTest/RPCTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/WJQ.iml" filepath="$PROJECT_DIR$/WJQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbotest/dubbotest.iml" filepath="$PROJECT_DIR$/dubbotest/dubbotest.iml" />
       <module fileurl="file://$PROJECT_DIR$/httpDemo/httpDemo.iml" filepath="$PROJECT_DIR$/httpDemo/httpDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/test1/test1.iml" filepath="$PROJECT_DIR$/test1/test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/test2/test2.iml" filepath="$PROJECT_DIR$/test2/test2.iml" />
       <module fileurl="file://$PROJECT_DIR$/wetest/wecash.iml" filepath="$PROJECT_DIR$/wetest/wecash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wetest/wetest.iml" filepath="$PROJECT_DIR$/wetest/wetest.iml" />
     </modules>
   </component>
 </project>

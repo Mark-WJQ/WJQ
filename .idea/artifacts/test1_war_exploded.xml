@@ -65,7 +65,6 @@
           <element id="library" level="project" name="Maven: com.dangdang:elastic-job-example:1.1.1" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.14" />
           <element id="library" level="project" name="Maven: com.github.kevinsawicki:http-request:5.6" />
-          <element id="library" level="project" name="Maven: error:error:unknown" />
         </element>
       </element>
       <element id="directory" name="META-INF">

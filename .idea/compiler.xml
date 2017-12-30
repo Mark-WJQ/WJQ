@@ -11,12 +11,14 @@
         <module name="DubboCommon" />
         <module name="DubboConsumer" />
         <module name="DubboProvider" />
+        <module name="dubbotest" />
         <module name="httpDemo" />
         <module name="RPCService" />
         <module name="RPCServiceimpl" />
         <module name="test1" />
         <module name="test2" />
         <module name="wecash" />
+        <module name="wetest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -24,14 +26,16 @@
       <module name="DubboCommon" target="1.5" />
       <module name="DubboConsumer" target="1.5" />
       <module name="DubboProvider" target="1.5" />
+      <module name="dubbotest" target="1.5" />
       <module name="httpDemo" target="1.5" />
       <module name="RPCService" target="1.5" />
       <module name="RPCServiceimpl" target="1.5" />
       <module name="RPCTest" target="1.5" />
       <module name="test-web" target="1.5" />
-      <module name="test1" target="1.5" />
-      <module name="test2" target="1.5" />
+      <module name="test1" target="1.8" />
+      <module name="test2" target="1.7" />
       <module name="wecash" target="1.5" />
+      <module name="wetest" target="1.5" />
       <module name="WJQ" target="1.5" />
     </bytecodeTargetLevel>
   </component>

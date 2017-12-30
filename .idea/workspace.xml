@@ -2,108 +2,252 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893f0975-0a16-49a2-a01b-ca25e674d5d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Wecash_WJQ_WJQ_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_16_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCService/RPCService.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCService/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCService/src/main/java/test/HelloService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/RPCServiceimpl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/impl/HelloServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/Constant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/RPCBootStrap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/RpcServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/RpcService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/ServiceRegistry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/resources/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/resources/spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/RPCTest.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPCTest/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/CollestionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/ListIteratorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/NonCollectionSequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/QueenTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/StaticTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/Exception1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/Exception2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/ExceptionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/FailingContructor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/LogException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/WithFinally.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/ClassInitialization.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/Contruct.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/LabelledFor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/PolyConstructors.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/RegisteredFactories.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/Shapes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/SimpleDynamicProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/SimpleProxyDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/ThreadBinaryTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/Toytest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/Vampire.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/abstracttest/AbstractPrint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/abstracttest/AdaptedRandomDoubles.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/abstracttest/ExtendsPring.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/abstracttest/NonMethod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/abstracttest/NonMethodE.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/abstracttest/RandomDoubles.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/A.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/B.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/C.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/FirstCladd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/InterfaceInner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/Outer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/P1Inner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/SecondClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/Sequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/TestOuter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/U.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/factory/Bicycle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/factory/Cycle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/factory/CycleFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/factory/Factories.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/factory/Unicycle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/staticinner/StaticInner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/staticinner/StaticTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/staticinner/Tes1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/otherpackge/ThirdClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/remote/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/remote/PersonEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/remote/PersonService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/remote/PersonServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/remote/Program.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/reuseclass/A.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/reuseclass/B.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/reuseclass/C.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/p1/com/wjq/OuterP1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/p2/com/wjq/ThirdClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wetest/wecash.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_37.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbotest/dubbotest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/string/Groups.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/string/PatternFlag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/string/StringPattern.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/TypeCounter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/array/ArrayOfGenerics.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/array/CountingGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/array/Generated.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/array/TDArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/array/TestArray11.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/ArrayMaker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Boundary.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/ClearType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/CoffeeGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Covariance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Fill.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Functional.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Generators.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/GenericArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/GenericTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/GenericsAndReturnTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/HolderList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/InstantiateGenericType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/IterableFibonacci.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/LinkedStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/MethodGeneric.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/NewUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/SelfBound.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Sets.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/SimpleHolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/StoryCharacters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/ThrowGenericException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Tset1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/TwoTuple.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wetest/wetest.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wecash/pom.xml" afterPath="$PROJECT_DIR$/wetest/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wecash/src/main/java/com/test/wjq/Filter1.java" afterPath="$PROJECT_DIR$/wetest/src/main/java/com/test/wjq/Filter1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wecash/src/main/java/com/test/wjq/Filter2.java" afterPath="$PROJECT_DIR$/wetest/src/main/java/com/test/wjq/Filter2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wecash/src/main/java/com/test/wjq/FilterChain.java" afterPath="$PROJECT_DIR$/wetest/src/main/java/com/test/wjq/FilterChain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wecash/src/main/java/com/test/wjq/FilterInterface.java" afterPath="$PROJECT_DIR$/wetest/src/main/java/com/test/wjq/FilterInterface.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wecash/src/main/java/com/test/wjq/PatternTest.java" afterPath="$PROJECT_DIR$/wetest/src/main/java/com/test/wjq/PatternTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wecash/wecash.iml" afterPath="$PROJECT_DIR$/test2/test2.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test2/target/classes/com/test$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test2/target/classes/com/test$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test2/target/classes/com/test$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test2/target/classes/com/test$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test2/target/classes/com/test$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test2/target/classes/com/test$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test2/target/classes/com/test$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test2/target/classes/com/test$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test2/target/classes/com/test$9.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/ImageBase64Utils.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/ImageBase64Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/JSONTest/JsonAnnotation$1.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/JSONTest/JsonAnnotation$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/JSONTest/JsonAnnotation$2.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/JSONTest/JsonAnnotation$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/JSONTest/JsonAnnotation.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/JSONTest/JsonAnnotation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/JSONTest/MyExtraProcessor.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/JSONTest/MyExtraProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/bean/User.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/bean/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/CollestionTest.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/CollestionTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/ListIteratorTest.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/ListIteratorTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/NonCollectionSequence$1$1.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/NonCollectionSequence$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/NonCollectionSequence$1.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/NonCollectionSequence$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/NonCollectionSequence$2.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/NonCollectionSequence$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/NonCollectionSequence.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/NonCollectionSequence.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/P.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/P.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/P1.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/P1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/QueenTest.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/QueenTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/StaticTest.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/StaticTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/T.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/T.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/T1.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/T1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/Test.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/Test1.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/Test1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/Test2.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/collection/Test2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/controller/FirstClass.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/controller/FirstClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/dao/UserDao.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/enump/EnumTest.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/enump/EnumTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/E1.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/E1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/E2.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/E2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/Exception1.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/Exception1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/Exception2.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/Exception2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/Exception3.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/Exception3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/Exception4.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/Exception4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/ExceptionTest.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/ExceptionTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/Exceptionf.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/Exceptionf.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/FailingContructor.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/FailingContructor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/LogException.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/LogException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/T1.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/T1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/T2.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/T2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/WithFinally.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/exception/WithFinally.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/repayment.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/repayment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/service/UserService.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/service/serviceImpl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/service/serviceImpl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/test.class" afterPath="$PROJECT_DIR$/test1/target/classes/com/test/wjq/test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/test-classes/DateTest.class" afterPath="$PROJECT_DIR$/test1/target/test-classes/DateTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/test-classes/InstallCert$1.class" afterPath="$PROJECT_DIR$/test1/target/test-classes/InstallCert$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/test-classes/InstallCert$miTM.class" afterPath="$PROJECT_DIR$/test1/target/test-classes/InstallCert$miTM.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/test-classes/InstallCert.class" afterPath="$PROJECT_DIR$/test1/target/test-classes/InstallCert.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/test-classes/TestClass.class" afterPath="$PROJECT_DIR$/test1/target/test-classes/TestClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/test-classes/TestClass1.class" afterPath="$PROJECT_DIR$/test1/target/test-classes/TestClass1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/test-classes/TestStaticClass.class" afterPath="$PROJECT_DIR$/test1/target/test-classes/TestStaticClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/test-classes/TestStaticClass1.class" afterPath="$PROJECT_DIR$/test1/target/test-classes/TestStaticClass1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/target/test-classes/WeekDayEnum.class" afterPath="$PROJECT_DIR$/test1/target/test-classes/WeekDayEnum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/test.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/AirFilter$Factory.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/AirFilter$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/AirFilter.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/AirFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Belt.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Belt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/CabinAirFilter$Factory.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/CabinAirFilter$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/CabinAirFilter.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/CabinAirFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Circle.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Circle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/ClassInitialization.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/ClassInitialization.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Contruct.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Contruct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/DynamicProxyHandler.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/DynamicProxyHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Factory.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/FanBelt$Factory.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/FanBelt$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/FanBelt.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/FanBelt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/FancyToy.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/FancyToy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Filter.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Filter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/FueFilter$Factory.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/FueFilter$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/FueFilter.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/FueFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/GeneratorBelt$Factory.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/GeneratorBelt$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/GeneratorBelt.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/GeneratorBelt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Glyph.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Glyph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/HasBatteries.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/HasBatteries.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Initable.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Initable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Initable2.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Initable2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Initable3.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Initable3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Interface.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Interface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/LabelledFor.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/LabelledFor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Node.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/OilFilter$Factory.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/OilFilter$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/OilFilter.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/OilFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Part.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Part.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/PolyConstructors.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/PolyConstructors.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/PowerSteerBelt$Factory.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/PowerSteerBelt$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/PowerSteerBelt.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/PowerSteerBelt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/RealObject.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/RealObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/RegisteredFactories.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/RegisteredFactories.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Rhomboid.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Rhomboid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/RoundGlyph.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/RoundGlyph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Shapes.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Shapes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Shoots.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Shoots.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/SimpleDynamicProxy.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/SimpleDynamicProxy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/SimpleProxy.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/SimpleProxy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/SimpleProxyDemo.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/SimpleProxyDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/ThreadBinaryTree$Node.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/ThreadBinaryTree$Node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/ThreadBinaryTree.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/ThreadBinaryTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Toy.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Toy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Toytest.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Toytest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Vampire.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Vampire.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/Waterproof.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/Waterproof.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/abstracttest/AbstractPrint.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/abstracttest/AbstractPrint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/abstracttest/AdaptedRandomDoubles.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/abstracttest/AdaptedRandomDoubles.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/abstracttest/ExtendsPring.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/abstracttest/ExtendsPring.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/abstracttest/NonMethod.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/abstracttest/NonMethod.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/abstracttest/NonMethodE.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/abstracttest/NonMethodE.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/abstracttest/RandomDoubles.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/abstracttest/RandomDoubles.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/A$1.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/A$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/A.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/A.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/B.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/B.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/C$A.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/C$A.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/C.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/C.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/D.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/D.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/E$F.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/E$F.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/E.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/E.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/FirstCladd.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/FirstCladd.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/G$H.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/G$H.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/G.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/G.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/InterfaceInner$Test.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/InterfaceInner$Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/InterfaceInner.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/InterfaceInner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Outer$Inner.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Outer$Inner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Outer$StaticInner.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Outer$StaticInner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Outer.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Outer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/P1Inner$Inner.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/P1Inner$Inner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/P1Inner.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/P1Inner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/SecondClass$1.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/SecondClass$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/SecondClass.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/SecondClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Selecter.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Selecter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Sequence$1.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Sequence$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Sequence$RevertSelector.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Sequence$RevertSelector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Sequence$SequenceSelector.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Sequence$SequenceSelector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Sequence.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/Sequence.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/TestOuter.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/TestOuter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/U.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/U.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/Bicycle$1.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/Bicycle$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/Bicycle.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/Bicycle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/Cycle.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/Cycle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/CycleFactory.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/CycleFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/Factories.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/Factories.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/Unicycle$1.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/Unicycle$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/Unicycle.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/factory/Unicycle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/StaticInner$Inner.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/StaticInner$Inner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/StaticInner$Inner1.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/StaticInner$Inner1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/StaticInner.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/StaticInner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/StaticTest$t1$t2.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/StaticTest$t1$t2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/StaticTest$t1.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/StaticTest$t1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/StaticTest.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/StaticTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/Tes1$t$t1.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/Tes1$t$t1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/Tes1$t.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/Tes1$t.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/Tes1.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/innerclass/staticinner/Tes1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/otherpackge/ThirdClass.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/otherpackge/ThirdClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/remote/Client.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/remote/Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/remote/PersonEntity.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/remote/PersonEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/remote/PersonService.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/remote/PersonService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/remote/PersonServiceImpl.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/remote/PersonServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/remote/Program.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/remote/Program.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/reuseclass/A$D.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/reuseclass/A$D.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/reuseclass/A$E.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/reuseclass/A$E.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/reuseclass/A.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/reuseclass/A.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/reuseclass/B.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/reuseclass/B.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/reuseclass/C.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/reuseclass/C.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/shape.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/shape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/p1/com/wjq/OuterP1.class" afterPath="$PROJECT_DIR$/test2/target/classes/p1/com/wjq/OuterP1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/p2/com/wjq/ThirdClass.class" afterPath="$PROJECT_DIR$/test2/target/classes/p2/com/wjq/ThirdClass.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/test1_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/test1_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__Wecash_WJQ_WJQ_1_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Wecash_WJQ_WJQ_1_0_SNAPSHOT.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DubboCommon/DubboCommon.iml" afterPath="$PROJECT_DIR$/DubboCommon/DubboCommon.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DubboCommon/pom.xml" afterPath="$PROJECT_DIR$/DubboCommon/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DubboConsumer/DubboConsumer.iml" afterPath="$PROJECT_DIR$/DubboConsumer/DubboConsumer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DubboConsumer/pom.xml" afterPath="$PROJECT_DIR$/DubboConsumer/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DubboProvider/DubboProvider.iml" afterPath="$PROJECT_DIR$/DubboProvider/DubboProvider.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DubboProvider/pom.xml" afterPath="$PROJECT_DIR$/DubboProvider/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RPCTest/RPCService/RPCService.iml" afterPath="$PROJECT_DIR$/RPCTest/RPCService/RPCService.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/RPCServiceimpl.iml" afterPath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/RPCServiceimpl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WJQ.iml" afterPath="$PROJECT_DIR$/WJQ.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/data.iml" afterPath="$PROJECT_DIR$/data/data.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpDemo/httpDemo.iml" afterPath="$PROJECT_DIR$/httpDemo/httpDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/pom.xml" afterPath="$PROJECT_DIR$/data/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpDemo/pom.xml" afterPath="$PROJECT_DIR$/httpDemo/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/pom.xml" afterPath="$PROJECT_DIR$/test1/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/StaticTest.java" afterPath="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/StaticTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/test1.iml" afterPath="$PROJECT_DIR$/test1/test1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/pom.xml" afterPath="$PROJECT_DIR$/test2/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/src/main/java/com/test.java" afterPath="$PROJECT_DIR$/test2/src/main/java/com/test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/src/main/java/com/wjq/Contruct.java" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/Contruct.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/src/main/java/com/wjq/RegisteredFactories.java" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/RegisteredFactories.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/src/main/java/com/wjq/Shapes.java" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/Shapes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/src/main/java/com/wjq/SimpleDynamicProxy.java" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/SimpleDynamicProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/Sequence.java" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/Sequence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/test2.iml" afterPath="$PROJECT_DIR$/test2/test2.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/DubboConsumer/target/" />
     <ignored path="$PROJECT_DIR$/DubboProvider/target/" />
@@ -118,6 +262,7 @@
     <ignored path="$PROJECT_DIR$/RPCTest/target/" />
     <ignored path="$PROJECT_DIR$/RPCTest/RPCService/target/" />
     <ignored path="$PROJECT_DIR$/RPCTest/RPCServiceimpl/target/" />
+    <ignored path="$PROJECT_DIR$/dubbotest/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,84 +270,85 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QueenTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/QueenTest.java">
+      <file leaf-file-name="ThrowGenericException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/ThrowGenericException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NonCollectionSequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/NonCollectionSequence.java">
+      <file leaf-file-name="Fill.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Fill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="525">
+              <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+              <folding>
+                <element signature="e#1394#1395#0" expanded="false" />
+                <element signature="e#1420#1421#0" expanded="false" />
+                <element signature="e#1462#1463#0" expanded="false" />
+                <element signature="e#1486#1487#0" expanded="false" />
+                <element signature="e#1772#1773#0" expanded="false" />
+                <element signature="e#1800#1801#0" expanded="false" />
+                <element signature="e#1932#1933#0" expanded="false" />
+                <element signature="e#1964#1965#0" expanded="false" />
+                <element signature="e#1985#1986#0" expanded="false" />
+                <element signature="e#2022#2023#0" expanded="false" />
+                <element signature="e#2185#2186#0" expanded="false" />
+                <element signature="e#2226#2227#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/LogException.java">
+      <file leaf-file-name="Functional.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Functional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="1365">
+              <caret line="109" column="24" lean-forward="false" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="24" />
+              <folding>
+                <element signature="e#2128#2129#0" expanded="false" />
+                <element signature="e#2164#2165#0" expanded="false" />
+                <element signature="e#2303#2304#0" expanded="false" />
+                <element signature="e#2339#2340#0" expanded="false" />
+                <element signature="e#2495#2496#0" expanded="false" />
+                <element signature="e#2534#2535#0" expanded="false" />
+                <element signature="e#2691#2692#0" expanded="false" />
+                <element signature="e#2730#2731#0" expanded="false" />
+                <element signature="e#2886#2887#0" expanded="false" />
+                <element signature="e#2953#2954#0" expanded="false" />
+                <element signature="e#3306#3307#0" expanded="false" />
+                <element signature="e#3348#3349#0" expanded="false" />
+                <element signature="e#3402#3403#0" expanded="false" />
+                <element signature="e#3455#3456#0" expanded="false" />
+                <element signature="e#3752#3753#0" expanded="false" />
+                <element signature="e#3786#3787#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exception1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/Exception1.java">
+      <file leaf-file-name="TDArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/array/TDArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WithFinally.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/WithFinally.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exception2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/Exception2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceptionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/ExceptionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FailingContructor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/FailingContructor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="383">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,21 +356,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="TestArray11.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/array/TestArray11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="335" column="21" lean-forward="false" selection-start-line="335" selection-start-column="21" selection-end-line="335" selection-end-column="21" />
+            <state relative-caret-position="316">
+              <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#889#1030#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
+                <element signature="e#1560#1561#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="5091" column="23" lean-forward="false" selection-start-line="5091" selection-start-column="23" selection-end-line="5091" selection-end-column="23" />
+              <folding>
+                <element signature="e#197058#197059#0" expanded="true" />
+                <element signature="e#197128#197129#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayOfGenerics.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/array/ArrayOfGenerics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Assert.class" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/util/Assert.class">
+      <file leaf-file-name="CountingGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/array/CountingGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="81" column="22" lean-forward="false" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+            <state relative-caret-position="1500">
+              <caret line="118" column="5" lean-forward="false" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -248,6 +425,8 @@
       <find>DED_ZJD</find>
       <find>dubbo</find>
       <find>netty</find>
+      <find>@InjectMocks</find>
+      <find>clone</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -261,57 +440,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/Outer.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/TestOuter.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/p1/com/wjq/OuterP1.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/P1Inner.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/p2/com/wjq/ThirdClass.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/otherpackge/ThirdClass.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/FirstCladd.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/SecondClass.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/factory/Cycle.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/factory/CycleFactory.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/factory/Unicycle.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/factory/Bicycle.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/factory/Factories.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/staticinner/Tes1.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/staticinner/StaticTest.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/InterfaceInner.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/Sequence.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/U.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/B.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/A.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/staticinner/StaticInner.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/C.java" />
-        <option value="$PROJECT_DIR$/wetest/pom.xml" />
-        <option value="$PROJECT_DIR$/RPCTest/RPCService/pom.xml" />
-        <option value="$PROJECT_DIR$/RPCTest/RPCService/src/main/java/test/HelloService.java" />
-        <option value="$PROJECT_DIR$/RPCTest/pom.xml" />
-        <option value="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/util/RpcService.java" />
-        <option value="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/impl/HelloServiceImpl.java" />
-        <option value="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/Constant.java" />
-        <option value="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/resources/config.properties.kt" />
-        <option value="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/resources/spring.xml" />
-        <option value="$PROJECT_DIR$/RPCTest/RPCServiceimpl/pom.xml" />
-        <option value="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/ServerBootStrap.java" />
-        <option value="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/ServiceRegistry.java" />
-        <option value="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/RPCBootStrap.java" />
-        <option value="$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/RpcServer.java" />
-        <option value="$PROJECT_DIR$/test2/src/main/java/com/test.java" />
-        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/CollestionTest.java" />
-        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/CollestionTest.java" />
-        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/ListIteratorTest.java" />
-        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/StaticTest.java" />
-        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/QueenTest.java" />
-        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/NonCollectionSequence.java" />
-        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/LogException.java" />
-        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/Exception1.java" />
-        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/WithFinally.java" />
-        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/Exception2.java" />
-        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/ExceptionTest.java" />
-        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/FailingContructor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/StaticTest.java" />
+        <option value="$PROJECT_DIR$/test1/pom.xml" />
+        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/string/StringTest.java" />
+        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/string/StringPattern.java" />
+        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/string/Groups.java" />
+        <option value="$PROJECT_DIR$/test1/src/main/java/com/test/wjq/string/PatternFlag.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/Shapes.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/TypeCounter.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/RegisteredFactories.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/Contruct.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/SimpleDynamicProxy.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Tset1.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/Sequence.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/LinkedStack.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/TwoTuple.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/CoffeeGenerator.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/IterableFibonacci.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/StoryCharacters.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/NewUtil.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Generators.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Sets.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/ClearType.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/ArrayMaker.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/SimpleHolder.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/InstantiateGenericType.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/test.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/MethodGeneric.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/GenericArray.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Boundary.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/GenericTest.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Covariance.java" />
+        <option value="$PROJECT_DIR$/test2/pom.xml" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/HolderList.java" />
+        <option value="$PROJECT_DIR$/httpDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/DubboConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/DubboProvider/pom.xml" />
+        <option value="$PROJECT_DIR$/DubboCommon/pom.xml" />
+        <option value="$PROJECT_DIR$/data/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbotest/pom.xml" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/SelfBound.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/GenericsAndReturnTypes.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/ThrowGenericException.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Fill.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/functional.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Functional.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/array/ArrayOfGenerics.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/array/TDArray.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/array/CountingGenerator.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/array/Generated.java" />
+        <option value="$PROJECT_DIR$/test2/src/main/java/com/wjq/array/TestArray11.java" />
       </list>
     </option>
   </component>
@@ -342,6 +521,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -364,15 +544,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: io.netty:netty:3.7.0.Final" />
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="netty-3.7.0.Final.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="netty" />
+              <option name="myItemId" value="rt.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,19 +576,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: io.netty:netty:3.7.0.Final" />
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="netty-3.7.0.Final.jar" />
+              <option name="myItemId" value="rt.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="netty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="channel" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,11 +598,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: io.netty:netty:3.7.0.Final" />
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="netty-3.7.0.Final.jar" />
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -440,7 +634,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wetest" />
+              <option name="myItemId" value="test2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,7 +648,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wetest" />
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -484,7 +744,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wetest" />
+              <option name="myItemId" value="test2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -508,9 +768,280 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GenericArray.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoffeeGenerator.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="array" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestArray11.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="array" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dubbotest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DubboProvider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DubboConsumer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DubboCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -542,15 +1073,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FailingContructor">
-    <configuration default="false" name="NonCollectionSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestArray11">
+    <configuration default="false" name="Fill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.wjq.collection.*" />
+          <option name="PATTERN" value="com.wjq.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.wjq.collection.NonCollectionSequence" />
+      <option name="MAIN_CLASS_NAME" value="com.wjq.generic.Fill" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -559,18 +1090,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="test1" />
+      <module name="test2" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="LogException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Functional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.wjq.exception.*" />
+          <option name="PATTERN" value="com.wjq.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.wjq.exception.LogException" />
+      <option name="MAIN_CLASS_NAME" value="com.wjq.generic.Functional" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -579,18 +1110,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="test1" />
+      <module name="test2" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Exception1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TDArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.wjq.exception.*" />
+          <option name="PATTERN" value="com.wjq.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.wjq.exception.Exception1" />
+      <option name="MAIN_CLASS_NAME" value="com.wjq.array.TDArray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -599,18 +1130,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="test1" />
+      <module name="test2" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="WithFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Generated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.wjq.exception.*" />
+          <option name="PATTERN" value="com.wjq.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.wjq.exception.WithFinally" />
+      <option name="MAIN_CLASS_NAME" value="com.wjq.array.Generated" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -619,18 +1150,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="test1" />
+      <module name="test2" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="FailingContructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestArray11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.wjq.exception.*" />
+          <option name="PATTERN" value="com.wjq.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.wjq.exception.FailingContructor" />
+      <option name="MAIN_CLASS_NAME" value="com.wjq.array.TestArray11" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -639,7 +1170,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="test1" />
+      <module name="test2" />
       <envs />
       <method />
     </configuration>
@@ -1092,19 +1623,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.NonCollectionSequence" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LogException" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Exception1" />
-      <item index="3" class="java.lang.String" itemvalue="Application.WithFinally" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FailingContructor" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Fill" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Functional" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TDArray" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Generated" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestArray11" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FailingContructor" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WithFinally" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Exception1" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LogException" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NonCollectionSequence" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestArray11" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Generated" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TDArray" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Functional" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Fill" />
       </list>
     </recent_temporary>
   </component>
@@ -1161,6 +1692,23 @@
       <workItem from="1510669140571" duration="2466000" />
       <workItem from="1510711416440" duration="297000" />
       <workItem from="1510753633014" duration="245000" />
+      <workItem from="1511186966210" duration="2312000" />
+      <workItem from="1511274383964" duration="975000" />
+      <workItem from="1511359642259" duration="3745000" />
+      <workItem from="1511405406165" duration="1088000" />
+      <workItem from="1511699927845" duration="4579000" />
+      <workItem from="1511749724353" duration="37000" />
+      <workItem from="1511791865145" duration="973000" />
+      <workItem from="1511877651439" duration="6035000" />
+      <workItem from="1512481813465" duration="2705000" />
+      <workItem from="1512569401652" duration="3842000" />
+      <workItem from="1512655576486" duration="2185000" />
+      <workItem from="1512892003074" duration="10536000" />
+      <workItem from="1513173924476" duration="2748000" />
+      <workItem from="1513507189194" duration="5254000" />
+      <workItem from="1513606836808" duration="2692000" />
+      <workItem from="1513862923787" duration="4325000" />
+      <workItem from="1514163147609" duration="2448000" />
     </task>
     <task id="LOCAL-00001" summary="修改包名">
       <created>1502761724878</created>
@@ -1172,26 +1720,35 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestClass1_test - 2017.11.24 at 08h 36m 28s.xml">
+      <configuration name="TestClass1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_test_wjq_string_in_test1 - 2017.11.21 at 22h 27m 30s.xml">
+      <configuration name="com.test.wjq.string in test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92023000" />
+    <option name="totallyTimeSpent" value="153476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.213253" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38072288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21173105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1202,7 +1759,6 @@
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1215,7 +1771,7 @@
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1225,11 +1781,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38072288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18903089" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25822604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1278,377 +1834,467 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="20" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="surroundingClass.getClasses()" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/staticinner/StaticInner.java">
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Sets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="435">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/innerclass/C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wetest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RPCTest/RPCService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RPCTest/RPCService/src/main/java/test/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RPCTest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/impl/HelloServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/Constant.java">
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/ClearType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="16" column="87" lean-forward="false" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DubboCommon/pom.xml">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/reflect/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/ArrayMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/target/classes/com/wjq/generic/Sets.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DubboConsumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/SimpleHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="405">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DubboProvider/pom.xml">
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/InstantiateGenericType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="1215">
+          <caret line="94" column="23" lean-forward="false" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.pom">
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/MethodGeneric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RPCTest/RPCServiceimpl/pom.xml">
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/GenericArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        <state relative-caret-position="403">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/ServiceRegistry.java">
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Boundary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="200" column="5" lean-forward="false" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/RPCBootStrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/RpcService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/function/UnaryOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="97" column="15" lean-forward="false" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
+        <state relative-caret-position="186">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5835">
-          <caret line="412" column="29" lean-forward="false" selection-start-line="412" selection-start-column="29" selection-end-line="412" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RPCTest/RPCServiceimpl/src/main/java/com/util/RpcServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/CollestionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="44" column="6" lean-forward="false" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11280">
-          <caret line="800" column="20" lean-forward="false" selection-start-line="800" selection-start-column="20" selection-end-line="800" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="143" column="20" lean-forward="false" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="84" column="13" lean-forward="false" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/ListIteratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="95" column="23" lean-forward="false" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="66" column="13" lean-forward="false" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/common/utils/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="309" column="25" lean-forward="false" selection-start-line="309" selection-start-column="25" selection-end-line="309" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/StaticTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="163" column="27" lean-forward="true" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="5112" column="31" lean-forward="false" selection-start-line="5112" selection-start-column="31" selection-end-line="5112" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/QueenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="237" column="12" lean-forward="false" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="3207" column="28" lean-forward="false" selection-start-line="3207" selection-start-column="28" selection-end-line="3207" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="180" column="39" lean-forward="true" selection-start-line="180" selection-start-column="39" selection-end-line="180" selection-end-column="39" />
+        <state relative-caret-position="-650">
+          <caret line="599" column="47" lean-forward="false" selection-start-line="599" selection-start-column="37" selection-end-line="599" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/collection/NonCollectionSequence.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        <state relative-caret-position="15">
+          <caret line="2149" column="33" lean-forward="false" selection-start-line="2149" selection-start-column="33" selection-end-line="2149" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/GenericTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Covariance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/test2.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RPCTest/RPCService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RPCTest/RPCServiceimpl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
+    <entry file="file://$PROJECT_DIR$/DubboConsumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="818" column="45" lean-forward="false" selection-start-line="818" selection-start-column="45" selection-end-line="818" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/LogException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="85">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/Exception1.java">
+    <entry file="file://$PROJECT_DIR$/test2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpDemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RPCTest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbotest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DubboCommon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DubboProvider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/HolderList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/SelfBound.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/GenericsAndReturnTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="61" column="40" lean-forward="false" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/ThrowGenericException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Fill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <element signature="e#1394#1395#0" expanded="false" />
+            <element signature="e#1420#1421#0" expanded="false" />
+            <element signature="e#1462#1463#0" expanded="false" />
+            <element signature="e#1486#1487#0" expanded="false" />
+            <element signature="e#1772#1773#0" expanded="false" />
+            <element signature="e#1800#1801#0" expanded="false" />
+            <element signature="e#1932#1933#0" expanded="false" />
+            <element signature="e#1964#1965#0" expanded="false" />
+            <element signature="e#1985#1986#0" expanded="false" />
+            <element signature="e#2022#2023#0" expanded="false" />
+            <element signature="e#2185#2186#0" expanded="false" />
+            <element signature="e#2226#2227#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="3312" column="22" lean-forward="false" selection-start-line="3312" selection-start-column="22" selection-end-line="3312" selection-end-column="22" />
+          <folding>
+            <element signature="e#139900#139901#0" expanded="false" />
+            <element signature="e#139961#139962#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/math/MathContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="139" column="11" lean-forward="false" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="3478" column="49" lean-forward="false" selection-start-line="3478" selection-start-column="40" selection-end-line="3478" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3945">
+          <caret line="300" column="35" lean-forward="false" selection-start-line="300" selection-start-column="17" selection-end-line="300" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#48091#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4879#4880#0" expanded="false" />
+            <element signature="e#4928#4929#0" expanded="false" />
+            <element signature="e#11985#11986#0" expanded="false" />
+            <element signature="e#12016#12017#0" expanded="false" />
+            <element signature="e#17088#17089#0" expanded="false" />
+            <element signature="e#17123#17124#0" expanded="false" />
+            <element signature="e#19076#19077#0" expanded="false" />
+            <element signature="e#19128#19129#0" expanded="false" />
+            <element signature="e#21068#21069#0" expanded="false" />
+            <element signature="e#21142#21143#0" expanded="false" />
+            <element signature="e#40955#40956#0" expanded="false" />
+            <element signature="e#40999#41000#0" expanded="false" />
+            <element signature="e#42775#42776#0" expanded="false" />
+            <element signature="e#42819#42820#0" expanded="false" />
+            <element signature="e#44623#44624#0" expanded="false" />
+            <element signature="e#44667#44668#0" expanded="false" />
+            <element signature="e#48004#48005#0" expanded="false" />
+            <element signature="e#48087#48088#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Generators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/WithFinally.java">
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/CoffeeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="436">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="93" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/io/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/array/ArrayOfGenerics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/Exception2.java">
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/generic/Functional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="1365">
+          <caret line="109" column="24" lean-forward="false" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="24" />
+          <folding>
+            <element signature="e#2128#2129#0" expanded="false" />
+            <element signature="e#2164#2165#0" expanded="false" />
+            <element signature="e#2303#2304#0" expanded="false" />
+            <element signature="e#2339#2340#0" expanded="false" />
+            <element signature="e#2495#2496#0" expanded="false" />
+            <element signature="e#2534#2535#0" expanded="false" />
+            <element signature="e#2691#2692#0" expanded="false" />
+            <element signature="e#2730#2731#0" expanded="false" />
+            <element signature="e#2886#2887#0" expanded="false" />
+            <element signature="e#2953#2954#0" expanded="false" />
+            <element signature="e#3306#3307#0" expanded="false" />
+            <element signature="e#3348#3349#0" expanded="false" />
+            <element signature="e#3402#3403#0" expanded="false" />
+            <element signature="e#3455#3456#0" expanded="false" />
+            <element signature="e#3752#3753#0" expanded="false" />
+            <element signature="e#3786#3787#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/array/CountingGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="118" column="5" lean-forward="false" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/ExceptionTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="285">
+          <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/AssertionError.java">
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/array/Generated.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="48" column="11" lean-forward="false" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        <state relative-caret-position="245">
+          <caret line="52" column="26" lean-forward="false" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1741#1742#0" expanded="false" />
+            <element signature="e#1768#1769#0" expanded="false" />
+            <element signature="e#2822#2823#0" expanded="false" />
+            <element signature="e#2850#2851#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/util/Assert.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="81" column="22" lean-forward="false" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+        <state relative-caret-position="196">
+          <caret line="5091" column="23" lean-forward="false" selection-start-line="5091" selection-start-column="23" selection-end-line="5091" selection-end-column="23" />
+          <folding>
+            <element signature="e#197058#197059#0" expanded="true" />
+            <element signature="e#197128#197129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="2446" column="9" lean-forward="true" selection-start-line="2446" selection-start-column="9" selection-end-line="2446" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1/src/main/java/com/test/wjq/exception/FailingContructor.java">
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/array/TDArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="383">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/test2/src/main/java/com/wjq/array/TestArray11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="335" column="21" lean-forward="false" selection-start-line="335" selection-start-column="21" selection-end-line="335" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="316">
+          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#889#1030#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1707,7 +2353,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>RPCServiceimpl</last-edited>
+          <last-edited>test2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

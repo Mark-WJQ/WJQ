@@ -6,7 +6,6 @@ package com.wjq.innerclass;
 public class Sequence <T>{
 
 
-
     private Object[] items;
 
     private int next = 0;
@@ -17,7 +16,7 @@ public class Sequence <T>{
 
 
 
-    public void add(Object x){
+    public void add(T x){
         if (next < items.length){
             items[next++] = x;
         }
@@ -31,8 +30,8 @@ public class Sequence <T>{
             return i == items.length;
         }
 
-        public Object current() {
-            return items[i];
+        public T current() {
+            return (T) items[i];
         }
 
         public void next() {
@@ -55,8 +54,8 @@ public class Sequence <T>{
             return i == 0;
         }
 
-        public Object current() {
-            return items[i-1];
+        public T current() {
+            return (T) items[i-1];
         }
 
         public void next() {

@@ -1,6 +1,5 @@
 package com;
 
-import com.google.common.util.concurrent.*;
 
 import java.util.concurrent.*;
 
@@ -9,7 +8,7 @@ import java.util.concurrent.*;
  */
 public class test {
 
-    static ListeningExecutorService service = MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(10));
+ /*   static ListeningExecutorService service = MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(10));
 
    static CountDownLatch latch = new CountDownLatch(2);
 
@@ -80,12 +79,12 @@ public class test {
 
 
     static void  test2() throws ExecutionException, InterruptedException {
-       /* ListenableFuture future = service.submit(new Runnable() {
+       *//* ListenableFuture future = service.submit(new Runnable() {
             public void run() {
                 System.out.println("submit");
 
             }
-        });*/
+        });*//*
 
         ListenableFuture future = service.submit(new Callable<Object>() {
             public Object call() throws Exception {
@@ -125,5 +124,5 @@ public class test {
         latch.await();
         System.out.println("dddd");
         service.shutdown();
-    }
+    }*/
 }

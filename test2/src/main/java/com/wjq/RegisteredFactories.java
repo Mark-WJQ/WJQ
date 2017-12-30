@@ -14,10 +14,23 @@ import java.util.Random;
 public class RegisteredFactories {
 
     public static void main(String[] args) {
+        TypeCounter typeCounter = new TypeCounter(Part.class);
         for (int i = 0 ; i < 10 ; i++){
-            System.out.println(Part.creatRandom());
+            typeCounter.count(Part.creatRandom());
         }
+        System.out.println(typeCounter.toString());
+
+
+
+
+
+
+
     }
+
+
+
+
 }
 
 interface Factory<T> {
