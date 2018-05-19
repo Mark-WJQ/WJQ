@@ -16,9 +16,11 @@
         <module>httpDemo</module>
         <module>test-web</module>
         <module>data</module>
-        <module>wetest</module>
         <module>test2</module>
         <module>RPCTest</module>
+        <module>serveletTest</module>
+         <module>wetest</module>
+        <module>qichao</module>
     </modules>
 
     <properties>

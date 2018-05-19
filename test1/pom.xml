@@ -34,5 +34,6 @@
             <artifactId>commons-codec</artifactId>
             <version>RELEASE</version>
         </dependency>
+
     </dependencies>
 </project>

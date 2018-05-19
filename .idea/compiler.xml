@@ -13,8 +13,10 @@
         <module name="DubboProvider" />
         <module name="dubbotest" />
         <module name="httpDemo" />
+        <module name="qichao" />
         <module name="RPCService" />
         <module name="RPCServiceimpl" />
+        <module name="serveletTest" />
         <module name="test1" />
         <module name="test2" />
         <module name="wecash" />
@@ -28,12 +30,14 @@
       <module name="DubboProvider" target="1.5" />
       <module name="dubbotest" target="1.5" />
       <module name="httpDemo" target="1.5" />
+      <module name="qichao" target="1.8" />
       <module name="RPCService" target="1.5" />
       <module name="RPCServiceimpl" target="1.5" />
       <module name="RPCTest" target="1.5" />
+      <module name="serveletTest" target="1.5" />
       <module name="test-web" target="1.5" />
       <module name="test1" target="1.8" />
-      <module name="test2" target="1.7" />
+      <module name="test2" target="1.8" />
       <module name="wecash" target="1.5" />
       <module name="wetest" target="1.5" />
       <module name="WJQ" target="1.5" />
