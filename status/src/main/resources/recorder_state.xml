@@ -1,0 +1,23 @@
+
+<recorder>
+    <state  name="stop">
+        <fun name="play" next="2">
+            PlayCommand
+        </fun>
+        <fun name="speed" next="3">
+            SpeedCommand
+        </fun>
+    </state>
+
+    <state id="2" name="play">
+        <fun name="stop" next="1">
+            StopCommand
+        </fun>
+    </state>
+
+    <state id="3" name="speed">
+        <fun name="stop" next="1">
+            StopCommand
+        </fun>
+    </state>
+</recorder>

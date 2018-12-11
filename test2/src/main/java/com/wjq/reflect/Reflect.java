@@ -1,6 +1,5 @@
 package com.wjq.reflect;
 
-import com.sun.deploy.security.ValidationState;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

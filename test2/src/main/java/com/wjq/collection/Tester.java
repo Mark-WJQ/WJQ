@@ -1,7 +1,5 @@
 package com.wjq.collection;
 
-import com.sun.tools.doclets.formats.html.PackageUseWriter;
-
 import java.util.List;
 
 /**

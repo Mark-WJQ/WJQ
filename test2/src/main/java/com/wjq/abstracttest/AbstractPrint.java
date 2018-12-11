@@ -6,6 +6,9 @@ package com.wjq.abstracttest;
 public abstract class AbstractPrint {
 
 
+     static int i = 10;
+
+
     public AbstractPrint() {
         print();
     }

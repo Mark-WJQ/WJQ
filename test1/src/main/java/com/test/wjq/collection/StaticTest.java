@@ -1,7 +1,6 @@
 package com.test.wjq.collection;
 
 
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
 
 import java.util.*;
 

@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AjcSettings">
+    <option name="ajcPath" value="$USER_HOME$/aspectj1.9/lib/aspectjtools.jar" />
+  </component>
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
+      <profile default="true" name="Default" enabled="true">
+        <processor name="com.wjq.jvm.NameCheckProcessor" />
+      </profile>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="data" />
-        <module name="DubboCommon" />
-        <module name="DubboConsumer" />
-        <module name="DubboProvider" />
-        <module name="dubbotest" />
         <module name="httpDemo" />
-        <module name="qichao" />
+        <module name="planout" />
         <module name="RPCService" />
         <module name="RPCServiceimpl" />
         <module name="serveletTest" />
+        <module name="spring-test" />
+        <module name="spring-web" />
+        <module name="SpringMvc-Test" />
+        <module name="status" />
         <module name="test1" />
         <module name="test2" />
         <module name="wecash" />
@@ -25,20 +30,19 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="data" target="1.5" />
-      <module name="DubboCommon" target="1.5" />
-      <module name="DubboConsumer" target="1.5" />
-      <module name="DubboProvider" target="1.5" />
-      <module name="dubbotest" target="1.5" />
       <module name="httpDemo" target="1.5" />
-      <module name="qichao" target="1.8" />
+      <module name="planout" target="1.8" />
       <module name="RPCService" target="1.5" />
       <module name="RPCServiceimpl" target="1.5" />
       <module name="RPCTest" target="1.5" />
       <module name="serveletTest" target="1.5" />
-      <module name="test-web" target="1.5" />
+      <module name="spring-mvc" target="1.7" />
+      <module name="spring-test" target="1.5" />
+      <module name="spring-web" target="1.8" />
+      <module name="SpringMvc-Test" target="1.8" />
+      <module name="status" target="1.8" />
       <module name="test1" target="1.8" />
       <module name="test2" target="1.8" />
-      <module name="wecash" target="1.5" />
       <module name="wetest" target="1.5" />
       <module name="WJQ" target="1.5" />
     </bytecodeTargetLevel>

@@ -1,7 +1,5 @@
 package com.wjq.collection;
 
-import com.sun.tools.classfile.Opcode;
-import org.apache.curator.framework.recipes.cache.TreeCache;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashSet;

@@ -7,7 +7,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>test1</artifactId>
-    <packaging>war</packaging>
     <name>test1 Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <build>
@@ -24,16 +23,45 @@
         </plugins>
     </build>
     <dependencies>
+        <!--kie api 构建kie虚拟文件系统，关联decisiontable和drl文件，很关键 -->
         <dependency>
-            <groupId>Wecash-WJQ</groupId>
-            <artifactId>WJQ</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.kie</groupId>
+            <artifactId>kie-api</artifactId>
+            <version>7.8.0.Final</version>
+        </dependency>
+        <!-- 规则引擎核心包，里面包含了RETE引擎和LEAPS 引擎-->
+        <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-core</artifactId>
+            <version>7.8.0.Final</version>
         </dependency>
         <dependency>
-            <groupId>commons-codec</groupId>
-            <artifactId>commons-codec</artifactId>
-            <version>RELEASE</version>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-compiler</artifactId>
+            <version>7.8.0.Final</version>
         </dependency>
-
+        <!-- 决策表依赖-->
+        <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-decisiontables</artifactId>
+            <version>7.8.0.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-templates</artifactId>
+            <version>7.8.0.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>2.18.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>5.0.7.RELEASE</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
+
 </project>

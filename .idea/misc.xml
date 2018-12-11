@@ -5,6 +5,8 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/serveletTest" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-web" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMvc-Test" />
     <file type="web" url="file://$PROJECT_DIR$/test-web" />
     <file type="web" url="file://$PROJECT_DIR$/test1" />
   </component>
@@ -12,12 +14,17 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbotest/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/DubboCommon/pom.xml" />
+        <option value="$PROJECT_DIR$/DubboConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/DubboProvider/pom.xml" />
         <option value="$PROJECT_DIR$/RPCTest/pom.xml" />
+        <option value="$PROJECT_DIR$/qichao/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc/pom.xml" />
         <option value="$PROJECT_DIR$/test-web/pom.xml" />
       </set>
     </option>

@@ -1,12 +1,24 @@
 package com;
 
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.util.concurrent.*;
 
 /**
  * Created by wangjianqiang on 2017/11/6.
  */
 public class test {
+
+
+    public static void main(String[] args) {
+        try {
+            System.out.println(URLDecoder.decode("https%3a%2f%2fextension.light-quantum.com%2fdaiChao%3f_c%3d9fdsXCJfZGdaP%2bZp%2fd6K6A%3d%3d", "UTF-8"));
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+    }
 
  /*   static ListeningExecutorService service = MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(10));
 

@@ -1,7 +1,6 @@
 package com.test.wjq.exception;
 
 import com.alibaba.dubbo.common.utils.StringUtils;
-import com.sun.tools.javac.util.Assert;
 
 /**
  * Created by wangjianqiang on 2017/11/14.
