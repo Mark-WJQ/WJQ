@@ -1,0 +1,17 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT recorder (state)+>
+<!ATTLIST recorder
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT state (fun)+>
+<!ATTLIST state
+    xmlns CDATA #FIXED ''
+    id  #IMPLIED
+    name  #REQUIRED>
+
+<!ELEMENT fun (#PCDATA)>
+<!ATTLIST fun
+    xmlns CDATA #FIXED ''
+    name  #REQUIRED
+    next  #REQUIRED>
