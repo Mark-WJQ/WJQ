@@ -12,7 +12,6 @@
       <module fileurl="file://$PROJECT_DIR$/planout/planout.iml" filepath="$PROJECT_DIR$/planout/planout.iml" />
       <module fileurl="file://$PROJECT_DIR$/serveletTest/serveletTest.iml" filepath="$PROJECT_DIR$/serveletTest/serveletTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-test/spring-test.iml" filepath="$PROJECT_DIR$/spring-test/spring-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-web/spring-web.iml" filepath="$PROJECT_DIR$/spring-web/spring-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/status/status.iml" filepath="$PROJECT_DIR$/status/status.iml" />
       <module fileurl="file://$PROJECT_DIR$/test1/test1.iml" filepath="$PROJECT_DIR$/test1/test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/test2/test2.iml" filepath="$PROJECT_DIR$/test2/test2.iml" />

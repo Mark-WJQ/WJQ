@@ -19,7 +19,6 @@
         <module name="RPCServiceimpl" />
         <module name="serveletTest" />
         <module name="spring-test" />
-        <module name="spring-web" />
         <module name="SpringMvc-Test" />
         <module name="status" />
         <module name="test1" />
