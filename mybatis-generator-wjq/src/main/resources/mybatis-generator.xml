@@ -56,16 +56,6 @@
 
 
         <table tableName="mcc_order"/>
-        <table tableName="mcc_order_key_values"/>
-        <table tableName="mcc_order_status_investor"/>
-        <table tableName="mcc_order_status_trans"/>
-        <table tableName="mcc_order_xinren"/>
-        <table tableName="mcc_push_order_finish"/>
-        <table tableName="mcc_push_order_prepare"/>
-        <table tableName="mcc_push_receiver"/>
-        <table tableName="mcc_push_repayment_finish"/>
-        <table tableName="mcc_push_repayment_prepare"/>
-        <table tableName="mcc_repayment"/>
 
 
 

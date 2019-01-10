@@ -9,73 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/../wecash/wecash-task/task-finance-push/src/main/java/com/wecash/task/finance/push/push360/factory/response/ProcessorOf360.java" description="logger.info(&quot;订单id:{},请求接口:{},返回信息:{}&quot;, app.getId()..." line="25" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="893f0975-0a16-49a2-a01b-ca25e674d5d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-generator-wjq/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-generator-wjq/src/main/java/generator/ModelGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-generator-wjq/src/main/java/generator/MyJavaTypeResolverDefault.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-generator-wjq/src/main/java/generator/MySQLCommentGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-generator-wjq/src/main/resources/mybatis-generator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/collection/JosephusProblem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/collection/QuckSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/collection/TestSearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tk-mybatis-wjq/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/config/DBConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/tk/ApplicationConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tk-mybatis-wjq/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tk-mybatis-wjq/src/main/resources/mybatis-generator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tk-mybatis-wjq/src/test/java/com/wjq/test/OrderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/otherpackge/ThirdClass.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/otherpackge/ThirdClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/BankTellerSimulation.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/BankTellerSimulation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/Customer.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/Customer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/CustomerGenerator.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/CustomerGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/CustomerLine.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/CustomerLine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/DealyedTaskConsumer.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/DealyedTaskConsumer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/DelayQueueDemo.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/DelayQueueDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/DelayedTask$EndSentinel.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/DelayedTask$EndSentinel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/DelayedTask.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/DelayedTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/ListComparisons.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/ListComparisons.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/ListTest$Reader.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/ListTest$Reader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/ListTest$SychronizedArrayListTest.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/ListTest$SychronizedArrayListTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/ListTest$Writer.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/ListTest$Writer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/ListTest.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/ListTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/Teller.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/Teller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/TellerManager.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/TellerManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/Tester$TestTask.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/Tester$TestTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/Tester.class" afterPath="$PROJECT_DIR$/test2/target/classes/com/wjq/thread/Tester.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/serveletTest_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/serveletTest_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RPCTest/RPCService/RPCService.iml" afterPath="$PROJECT_DIR$/RPCTest/RPCService/RPCService.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/RPCServiceimpl.iml" afterPath="$PROJECT_DIR$/RPCTest/RPCServiceimpl/RPCServiceimpl.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RPCTest/RPCTest.iml" afterPath="$PROJECT_DIR$/RPCTest/RPCTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringMvc-Test/SpringMvc-Test.iml" afterPath="$PROJECT_DIR$/SpringMvc-Test/SpringMvc-Test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WJQ.iml" afterPath="$PROJECT_DIR$/WJQ.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/data.iml" afterPath="$PROJECT_DIR$/data/data.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpDemo/httpDemo.iml" afterPath="$PROJECT_DIR$/httpDemo/httpDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planout/planout.iml" afterPath="$PROJECT_DIR$/planout/planout.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serveletTest/serveletTest.iml" afterPath="$PROJECT_DIR$/serveletTest/serveletTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-test/pom.xml" afterPath="$PROJECT_DIR$/spring-test/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-test/spring-test.iml" afterPath="$PROJECT_DIR$/spring-test/spring-test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/beanHandle/ApplicationAwerTest.java" afterPath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/beanHandle/ApplicationAwerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/beanHandle/AspectConfig.java" afterPath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/beanHandle/AspectConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/beanHandle/TestApplicationContext.java" afterPath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/beanHandle/TestApplicationContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/beanHandle/TestConfig.java" afterPath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/beanHandle/TestConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/beanHandle/declareParents/DeclaerIntroducer.java" afterPath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/beanHandle/declareParents/DeclaerIntroducer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/beanHandle/declareParents/DeclareImpl.java" afterPath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/beanHandle/declareParents/DeclareImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/cglib/HelloService.java" afterPath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/cglib/HelloService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/cglib/HelloServiceimpl.java" afterPath="$PROJECT_DIR$/spring-test/src/main/java/com/wjq/cglib/HelloServiceimpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/status/status.iml" afterPath="$PROJECT_DIR$/status/status.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/test1.iml" afterPath="$PROJECT_DIR$/test1/test1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/pom.xml" afterPath="$PROJECT_DIR$/test2/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/src/main/java/com/wjq/Contruct.java" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/Contruct.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/src/main/java/com/wjq/otherpackge/ThirdClass.java" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/otherpackge/ThirdClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/src/main/java/com/wjq/thread/BankTellerSimulation.java" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/thread/BankTellerSimulation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/src/main/java/com/wjq/thread/DelayQueueDemo.java" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/thread/DelayQueueDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/src/main/java/com/wjq/thread/ListComparisons.java" afterPath="$PROJECT_DIR$/test2/src/main/java/com/wjq/thread/ListComparisons.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/test2.iml" afterPath="$PROJECT_DIR$/test2/test2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetest/pom.xml" afterPath="$PROJECT_DIR$/wetest/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetest/wetest.iml" afterPath="$PROJECT_DIR$/wetest/wetest.iml" />
-    </list>
+    <list default="true" id="893f0975-0a16-49a2-a01b-ca25e674d5d3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/DubboConsumer/target/" />
     <ignored path="$PROJECT_DIR$/DubboProvider/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -124,11 +58,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mybatis-generator.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mybatis-generator.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/resources/mybatis-generator.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+            <state relative-caret-position="280">
+              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -169,26 +103,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MethodProxy.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.3.RELEASE/spring-core-5.1.3.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigurationClassEnhancer.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
@@ -215,21 +129,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MccPushReceiverMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/order/dao/MccPushReceiverMapper.java">
+      <file leaf-file-name="TesttableMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/order/dao/TesttableMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MccPushReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/order/model/MccPushReceiver.java">
+      <file leaf-file-name="Testtable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/order/model/Testtable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-308">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="31">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TesttableExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/order/model/TesttableExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -352,8 +286,8 @@
         <option value="$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/config/DBConfig.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/tk/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/tk-mybatis-wjq/src/test/java/com/wjq/test/OrderTest.java" />
-        <option value="$PROJECT_DIR$/tk-mybatis-wjq/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/tk-mybatis-wjq/pom.xml" />
+        <option value="$PROJECT_DIR$/tk-mybatis-wjq/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/tk-mybatis-wjq/src/main/resources/mybatis-generator.xml" />
       </list>
     </option>
@@ -407,24 +341,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Plugins" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tk-mybatis-wjq" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="mybatis-generator" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -1223,36 +1139,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WJQ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WJQ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tk-mybatis-wjq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1292,6 +1178,82 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tk-mybatis-wjq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WJQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tk-mybatis-wjq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2340,7 +2302,7 @@
       <workItem from="1546945428265" duration="6204000" />
       <workItem from="1547000968279" duration="2374000" />
       <workItem from="1547004060843" duration="3531000" />
-      <workItem from="1547102266944" duration="5734000" />
+      <workItem from="1547102266944" duration="5965000" />
     </task>
     <task id="LOCAL-00001" summary="修改包名">
       <created>1502761724878</created>
@@ -2385,7 +2347,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="578198000" />
+    <option name="totallyTimeSpent" value="578429000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -2404,15 +2366,15 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35796177" sideWeight="0.48569384" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39036146" sideWeight="0.3018598" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39036146" sideWeight="0.3018598" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32761088" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39036146" sideWeight="0.6981402" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761088" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39036146" sideWeight="0.6981402" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17664233" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.47997138" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.47997138" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Repo Search" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -2436,9 +2398,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3385542" sideWeight="0.5143061" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39036146" sideWeight="0.3018598" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761088" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32761088" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2447,14 +2409,14 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16084194" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52611464" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5253012" sideWeight="0.48855507" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35796177" sideWeight="0.48569384" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3910828" sideWeight="0.48569384" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39036146" sideWeight="0.6981402" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17664233" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.47997138" order="11" side_tool="false" content_ui="tabs" />
@@ -2675,29 +2637,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE-sources.jar!/org/springframework/transaction/PlatformTransactionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE-sources.jar!/org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.2/mapper-base-1.1.2-sources.jar!/tk/mybatis/mapper/common/example/SelectByExampleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/resources/mapper1/MccOrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1815">
@@ -3058,14 +2997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/config/DBConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -3117,14 +3048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/resources/mybatis-generator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/order/model/MccPushReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-308">
@@ -3137,6 +3060,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/order/dao/TesttableMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/order/model/Testtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/java/com/wjq/order/model/TesttableExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk-mybatis-wjq/src/main/resources/mybatis-generator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding />
         </state>
       </provider>
