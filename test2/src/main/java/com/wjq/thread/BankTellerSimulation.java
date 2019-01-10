@@ -1,7 +1,5 @@
 package com.wjq.thread;
 
-import org.springframework.instrument.classloading.tomcat.TomcatLoadTimeWeaver;
-
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.PriorityQueue;

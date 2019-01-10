@@ -10,6 +10,8 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class DeclaerIntroducer {
-    @DeclareParents(value = "com.wjq.cglib.HelloService+",defaultImpl = DeclareImpl.class)
+
+    //给HelloService实现类自动实现Declare接口
+    @DeclareParents(value = "com.wjq.cglib.HelloServiceimpl",defaultImpl = DeclareImpl.class)
     public Declare declare;
 }

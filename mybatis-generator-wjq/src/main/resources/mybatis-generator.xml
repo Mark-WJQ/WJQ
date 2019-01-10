@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+
+
+
+<generatorConfiguration>
+    <classPathEntry location="/Users/wangjianqiang/.m2/repository/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar" />
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <commentGenerator >
+            <property name="author" value="wjq"/>
+            <property name="dateFormat" value="yyyy/MM/dd"/>
+            <property name="suppressDate" value="true"/>
+            <property name="addRemarkComments" value="true"/>
+            <!--不生成原生注释-->
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <!--数据库🔗信息-->
+
+        <jdbcConnection driverClass="${driveClass}"
+                        connectionURL="${connectionUrl}"
+                        userId="${userName}"
+                        password="${password}">
+            <property name="useInformationSchema" value="true"></property>
+        </jdbcConnection>
+
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="true" />
+
+        </javaTypeResolver>
+
+
+        <javaModelGenerator targetPackage="com.wjq.order.model" targetProject="/Users/wangjianqiang/IdeaProjects/WJQ/mybatis-generator-wjq/src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="mapper"  targetProject="/Users/wangjianqiang/IdeaProjects/WJQ/mybatis-generator-wjq/src/main/resources">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.wjq.order.dao"  targetProject="/Users/wangjianqiang/IdeaProjects/WJQ/mybatis-generator-wjq/src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+       <!-- <table schema="DB2ADMIN" tableName="ALLTYPES" domainObjectName="Customer" >
+            <property name="useActualColumnNames" value="true"/>
+            <generatedKey column="ID" sqlStatement="DB2" identity="true" />
+            <columnOverride column="DATE_FIELD" property="startDate" />
+            <ignoreColumn column="FRED" />
+            <columnOverride column="LONG_VARCHAR_FIELD" jdbcType="VARCHAR" />
+        </table>-->
+
+
+        <table tableName="mcc_order"/>
+        <table tableName="mcc_order_key_values"/>
+        <table tableName="mcc_order_status_investor"/>
+        <table tableName="mcc_order_status_trans"/>
+        <table tableName="mcc_order_xinren"/>
+        <table tableName="mcc_push_order_finish"/>
+        <table tableName="mcc_push_order_prepare"/>
+        <table tableName="mcc_push_receiver"/>
+        <table tableName="mcc_push_repayment_finish"/>
+        <table tableName="mcc_push_repayment_prepare"/>
+        <table tableName="mcc_repayment"/>
+
+
+
+
+
+    </context>
+</generatorConfiguration>

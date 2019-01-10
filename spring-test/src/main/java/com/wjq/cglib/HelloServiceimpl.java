@@ -1,7 +1,5 @@
 package com.wjq.cglib;
 
-import org.springframework.stereotype.Service;
-
 /**
  * Created by wangjianqiang on 2018/9/5.
  */
@@ -15,5 +13,10 @@ public class HelloServiceimpl implements HelloService {
 
     public String world(String name) {
         return "hello " + name;
+    }
+
+
+    public void dm1() {
+        System.out.println("delcare ---------- HelloServiceimpl");
     }
 }

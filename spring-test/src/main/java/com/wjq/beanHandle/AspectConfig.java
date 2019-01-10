@@ -2,15 +2,14 @@ package com.wjq.beanHandle;
 
 import com.wjq.cglib.HelloService;
 import com.wjq.cglib.HelloServiceimpl;
-import lombok.Setter;
-import org.aspectj.lang.annotation.Before;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.FactoryBeanNotInitializedException;
+import org.springframework.beans.factory.ListableBeanFactory;
+import org.springframework.beans.factory.SmartFactoryBean;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
+import org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor;
 import org.springframework.context.annotation.*;
 import org.springframework.core.type.AnnotationMetadata;
-import org.springframework.stereotype.Component;
-import org.springframework.test.context.ActiveProfiles;
-
-import javax.annotation.PreDestroy;
 
 /**
  * Created by wangjianqiang on 2018/9/20.

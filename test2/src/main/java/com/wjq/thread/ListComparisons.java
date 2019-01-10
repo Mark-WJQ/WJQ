@@ -2,7 +2,6 @@ package com.wjq.thread;
 
 import com.wjq.array.CountingGenerator;
 import com.wjq.array.Generated;
-import org.apache.zookeeper.common.AtomicFileOutputStream;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,7 +11,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
-import java.util.function.LongBinaryOperator;
 
 /**
  * Created by wangjianqiang on 2018/5/22.

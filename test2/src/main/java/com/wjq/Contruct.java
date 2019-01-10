@@ -21,4 +21,5 @@ public class Contruct {
         System.out.println(contruct.s);
     }
 
+
 }

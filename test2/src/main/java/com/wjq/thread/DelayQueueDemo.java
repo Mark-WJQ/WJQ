@@ -1,8 +1,5 @@
 package com.wjq.thread;
 
-import com.alibaba.dubbo.remoting.Endpoint;
-import org.tuckey.web.filters.urlrewrite.Run;
-
 import java.util.*;
 import java.util.concurrent.*;
 

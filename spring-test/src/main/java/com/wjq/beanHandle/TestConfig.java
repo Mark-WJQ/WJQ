@@ -15,10 +15,11 @@ public class TestConfig {
         ApplicationContext context = new AnnotationConfigApplicationContext(AspectConfig.class);
         HelloService helloService = context.getBean(HelloService.class);
 
-        helloService.hello();
+        System.out.println(helloService.hello());
 
         Declare declare = (Declare) helloService;
         declare.dm1();
+
 
 
     }
