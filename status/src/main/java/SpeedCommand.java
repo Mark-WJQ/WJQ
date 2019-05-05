@@ -1,6 +1,5 @@
 /**
  * 快进
- * @Author daimt
  * @date 2018/11/1
  **/
 public class SpeedCommand implements Command {

@@ -1,6 +1,5 @@
 /**
  * 功能
- * @Author daimt
  * @date 2018/11/1
  **/
 class Function implements Command{

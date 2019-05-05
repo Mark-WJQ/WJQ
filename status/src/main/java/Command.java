@@ -1,7 +1,6 @@
 /**
  * 系统命令
- * @Author daimt
- * @date 2018/11/1
+\ * @date 2018/11/1
  **/
 public interface Command {
     /**
