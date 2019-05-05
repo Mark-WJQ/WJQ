@@ -1,10 +1,6 @@
 package com.test.wjq;
 
-import com.github.kevinsawicki.http.HttpRequest;
-
-import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.FutureTask;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -42,7 +38,7 @@ public class test {
         System.out.println(service.getExecuteSql(sql,keyMap));*/
         //testMethod(1);
       //System.out.println(new Integer(1) != 1);
-        HttpRequest.post("").trustAllCerts();
+       // HttpRequest.post("").trustAllCerts();
 
     }
 

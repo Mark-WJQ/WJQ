@@ -20,10 +20,11 @@
 
         <!--数据库🔗信息-->
 
-        <jdbcConnection driverClass="${driveClass}"
-                        connectionURL="${connectionUrl}"
-                        userId="${userName}"
-                        password="${password}">
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL=""
+                        userId=""
+                        password="">
+
             <property name="useInformationSchema" value="true"></property>
         </jdbcConnection>
 
@@ -55,7 +56,25 @@
         </table>-->
 
 
-        <table tableName="mcc_order"/>
+        <table tableName="mcc_consume_repayment" catalog="mobile_card" schema="mobile_card" >
+            <ignoreColumn column="third_notify_time"/>
+            <ignoreColumn column="third_notify_time"/>
+            <ignoreColumn column="compenstate_status"/>
+            <ignoreColumn column="compenstate_time"/>
+            <ignoreColumn column="created_at"/>
+            <ignoreColumn column="updated_at"/>
+            <ignoreColumn column="capital_notify_time"/>
+            <ignoreColumn column="capital_notify_time"/>
+            <ignoreColumn column="pay_expire_date"/>
+
+        </table>
+        <table tableName="mcc_consume_status_transform" catalog="mobile_card" schema="mobile_card"></table>
+        <table tableName="mcc_consume_status_investor" catalog="mobile_card" schema="mobile_card"/>
+
+
+<!--
+        <table tableName="mcc_consume_xinren"/>
+-->
 
 
 

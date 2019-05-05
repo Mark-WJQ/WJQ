@@ -23,9 +23,11 @@ public class ModelGenerator {
             File configFile = new File("/Users/wangjianqiang/IdeaProjects/WJQ/mybatis-generator-wjq/src/main/resources/mybatis-generator.xml");
             ConfigurationParser cp = new ConfigurationParser(warnings);
             Configuration config = cp.parseConfiguration(configFile);
+
            Context context =  config.getContext("DB2Tables");
             context.getCommentGeneratorConfiguration().setConfigurationType(MySQLCommentGenerator.class.getName());
             context.getJavaTypeResolverConfiguration().setConfigurationType(MyJavaTypeResolverDefault.class.getName());
+
 
             DefaultShellCallback callback = new DefaultShellCallback(true);
             MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
