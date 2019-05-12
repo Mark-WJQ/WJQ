@@ -1,4 +1,4 @@
-package com.test.wjq.data;
+package com.wjq.dataStruct;
 
 
 

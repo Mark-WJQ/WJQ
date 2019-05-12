@@ -1,4 +1,4 @@
-package com.test.wjq.data;
+package com.wjq.dataStruct;
 
 /**
  * 八皇后问题回溯算法
