@@ -12,7 +12,6 @@ import java.util.Map;
 
 /**
  * 录音机
- * @Author daimt
  * @date 2018/11/1
  **/
 public class Recorder extends AbstractContext{

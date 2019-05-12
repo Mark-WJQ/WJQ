@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wjq.order.dao.mobile_card.MccConsumeStatusInvestorMapper">
+  <resultMap id="BaseResultMap" type="com.wjq.order.model.mobile_card.MccConsumeStatusInvestor">
+    <id column="investor_id" jdbcType="INTEGER" property="investorId" />
+    <id column="status_id" jdbcType="INTEGER" property="statusId" />
+    <id column="min_status_id" jdbcType="INTEGER" property="minStatusId" />
+    <result column="parent_id" jdbcType="INTEGER" property="parentId" />
+    <result column="btns" jdbcType="VARCHAR" property="btns" />
+    <result column="btn_rule" jdbcType="VARCHAR" property="btnRule" />
+    <result column="real_name" jdbcType="VARCHAR" property="realName" />
+    <result column="real_message" jdbcType="VARCHAR" property="realMessage" />
+    <result column="node_type" jdbcType="INTEGER" property="nodeType" />
+    <result column="is_default_node" jdbcType="INTEGER" property="isDefaultNode" />
+    <result column="min_status" jdbcType="VARCHAR" property="minStatus" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+    <result column="help_qa_detail_id" jdbcType="VARCHAR" property="helpQaDetailId" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    investor_id, status_id, min_status_id, parent_id, btns, btn_rule, real_name, real_message, 
+    node_type, is_default_node, min_status, remark, create_time, created_at, updated_at, 
+    help_qa_detail_id
+  </sql>
+  <select id="selectByExample" parameterType="com.wjq.order.model.mobile_card.MccConsumeStatusInvestorExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from mobile_card..mcc_consume_status_investor
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="com.wjq.order.model.mobile_card.MccConsumeStatusInvestorKey" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from mobile_card..mcc_consume_status_investor
+    where investor_id = #{investorId,jdbcType=INTEGER}
+      and status_id = #{statusId,jdbcType=INTEGER}
+      and min_status_id = #{minStatusId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="com.wjq.order.model.mobile_card.MccConsumeStatusInvestorKey">
+    delete from mobile_card..mcc_consume_status_investor
+    where investor_id = #{investorId,jdbcType=INTEGER}
+      and status_id = #{statusId,jdbcType=INTEGER}
+      and min_status_id = #{minStatusId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.wjq.order.model.mobile_card.MccConsumeStatusInvestorExample">
+    delete from mobile_card..mcc_consume_status_investor
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.wjq.order.model.mobile_card.MccConsumeStatusInvestor">
+    insert into mobile_card..mcc_consume_status_investor (investor_id, status_id, min_status_id, 
+      parent_id, btns, btn_rule, 
+      real_name, real_message, node_type, 
+      is_default_node, min_status, remark, 
+      create_time, created_at, updated_at, 
+      help_qa_detail_id)
+    values (#{investorId,jdbcType=INTEGER}, #{statusId,jdbcType=INTEGER}, #{minStatusId,jdbcType=INTEGER}, 
+      #{parentId,jdbcType=INTEGER}, #{btns,jdbcType=VARCHAR}, #{btnRule,jdbcType=VARCHAR}, 
+      #{realName,jdbcType=VARCHAR}, #{realMessage,jdbcType=VARCHAR}, #{nodeType,jdbcType=INTEGER}, 
+      #{isDefaultNode,jdbcType=INTEGER}, #{minStatus,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{createdAt,jdbcType=TIMESTAMP}, #{updatedAt,jdbcType=TIMESTAMP}, 
+      #{helpQaDetailId,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.wjq.order.model.mobile_card.MccConsumeStatusInvestor">
+    insert into mobile_card..mcc_consume_status_investor
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="investorId != null">
+        investor_id,
+      </if>
+      <if test="statusId != null">
+        status_id,
+      </if>
+      <if test="minStatusId != null">
+        min_status_id,
+      </if>
+      <if test="parentId != null">
+        parent_id,
+      </if>
+      <if test="btns != null">
+        btns,
+      </if>
+      <if test="btnRule != null">
+        btn_rule,
+      </if>
+      <if test="realName != null">
+        real_name,
+      </if>
+      <if test="realMessage != null">
+        real_message,
+      </if>
+      <if test="nodeType != null">
+        node_type,
+      </if>
+      <if test="isDefaultNode != null">
+        is_default_node,
+      </if>
+      <if test="minStatus != null">
+        min_status,
+      </if>
+      <if test="remark != null">
+        remark,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="createdAt != null">
+        created_at,
+      </if>
+      <if test="updatedAt != null">
+        updated_at,
+      </if>
+      <if test="helpQaDetailId != null">
+        help_qa_detail_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="investorId != null">
+        #{investorId,jdbcType=INTEGER},
+      </if>
+      <if test="statusId != null">
+        #{statusId,jdbcType=INTEGER},
+      </if>
+      <if test="minStatusId != null">
+        #{minStatusId,jdbcType=INTEGER},
+      </if>
+      <if test="parentId != null">
+        #{parentId,jdbcType=INTEGER},
+      </if>
+      <if test="btns != null">
+        #{btns,jdbcType=VARCHAR},
+      </if>
+      <if test="btnRule != null">
+        #{btnRule,jdbcType=VARCHAR},
+      </if>
+      <if test="realName != null">
+        #{realName,jdbcType=VARCHAR},
+      </if>
+      <if test="realMessage != null">
+        #{realMessage,jdbcType=VARCHAR},
+      </if>
+      <if test="nodeType != null">
+        #{nodeType,jdbcType=INTEGER},
+      </if>
+      <if test="isDefaultNode != null">
+        #{isDefaultNode,jdbcType=INTEGER},
+      </if>
+      <if test="minStatus != null">
+        #{minStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createdAt != null">
+        #{createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedAt != null">
+        #{updatedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="helpQaDetailId != null">
+        #{helpQaDetailId,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.wjq.order.model.mobile_card.MccConsumeStatusInvestorExample" resultType="java.lang.Long">
+    select count(*) from mobile_card..mcc_consume_status_investor
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update mobile_card..mcc_consume_status_investor
+    <set>
+      <if test="record.investorId != null">
+        investor_id = #{record.investorId,jdbcType=INTEGER},
+      </if>
+      <if test="record.statusId != null">
+        status_id = #{record.statusId,jdbcType=INTEGER},
+      </if>
+      <if test="record.minStatusId != null">
+        min_status_id = #{record.minStatusId,jdbcType=INTEGER},
+      </if>
+      <if test="record.parentId != null">
+        parent_id = #{record.parentId,jdbcType=INTEGER},
+      </if>
+      <if test="record.btns != null">
+        btns = #{record.btns,jdbcType=VARCHAR},
+      </if>
+      <if test="record.btnRule != null">
+        btn_rule = #{record.btnRule,jdbcType=VARCHAR},
+      </if>
+      <if test="record.realName != null">
+        real_name = #{record.realName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.realMessage != null">
+        real_message = #{record.realMessage,jdbcType=VARCHAR},
+      </if>
+      <if test="record.nodeType != null">
+        node_type = #{record.nodeType,jdbcType=INTEGER},
+      </if>
+      <if test="record.isDefaultNode != null">
+        is_default_node = #{record.isDefaultNode,jdbcType=INTEGER},
+      </if>
+      <if test="record.minStatus != null">
+        min_status = #{record.minStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="record.remark != null">
+        remark = #{record.remark,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createTime != null">
+        create_time = #{record.createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.createdAt != null">
+        created_at = #{record.createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.updatedAt != null">
+        updated_at = #{record.updatedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.helpQaDetailId != null">
+        help_qa_detail_id = #{record.helpQaDetailId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update mobile_card..mcc_consume_status_investor
+    set investor_id = #{record.investorId,jdbcType=INTEGER},
+      status_id = #{record.statusId,jdbcType=INTEGER},
+      min_status_id = #{record.minStatusId,jdbcType=INTEGER},
+      parent_id = #{record.parentId,jdbcType=INTEGER},
+      btns = #{record.btns,jdbcType=VARCHAR},
+      btn_rule = #{record.btnRule,jdbcType=VARCHAR},
+      real_name = #{record.realName,jdbcType=VARCHAR},
+      real_message = #{record.realMessage,jdbcType=VARCHAR},
+      node_type = #{record.nodeType,jdbcType=INTEGER},
+      is_default_node = #{record.isDefaultNode,jdbcType=INTEGER},
+      min_status = #{record.minStatus,jdbcType=VARCHAR},
+      remark = #{record.remark,jdbcType=VARCHAR},
+      create_time = #{record.createTime,jdbcType=TIMESTAMP},
+      created_at = #{record.createdAt,jdbcType=TIMESTAMP},
+      updated_at = #{record.updatedAt,jdbcType=TIMESTAMP},
+      help_qa_detail_id = #{record.helpQaDetailId,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.wjq.order.model.mobile_card.MccConsumeStatusInvestor">
+    update mobile_card..mcc_consume_status_investor
+    <set>
+      <if test="parentId != null">
+        parent_id = #{parentId,jdbcType=INTEGER},
+      </if>
+      <if test="btns != null">
+        btns = #{btns,jdbcType=VARCHAR},
+      </if>
+      <if test="btnRule != null">
+        btn_rule = #{btnRule,jdbcType=VARCHAR},
+      </if>
+      <if test="realName != null">
+        real_name = #{realName,jdbcType=VARCHAR},
+      </if>
+      <if test="realMessage != null">
+        real_message = #{realMessage,jdbcType=VARCHAR},
+      </if>
+      <if test="nodeType != null">
+        node_type = #{nodeType,jdbcType=INTEGER},
+      </if>
+      <if test="isDefaultNode != null">
+        is_default_node = #{isDefaultNode,jdbcType=INTEGER},
+      </if>
+      <if test="minStatus != null">
+        min_status = #{minStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        remark = #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createdAt != null">
+        created_at = #{createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedAt != null">
+        updated_at = #{updatedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="helpQaDetailId != null">
+        help_qa_detail_id = #{helpQaDetailId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where investor_id = #{investorId,jdbcType=INTEGER}
+      and status_id = #{statusId,jdbcType=INTEGER}
+      and min_status_id = #{minStatusId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.wjq.order.model.mobile_card.MccConsumeStatusInvestor">
+    update mobile_card..mcc_consume_status_investor
+    set parent_id = #{parentId,jdbcType=INTEGER},
+      btns = #{btns,jdbcType=VARCHAR},
+      btn_rule = #{btnRule,jdbcType=VARCHAR},
+      real_name = #{realName,jdbcType=VARCHAR},
+      real_message = #{realMessage,jdbcType=VARCHAR},
+      node_type = #{nodeType,jdbcType=INTEGER},
+      is_default_node = #{isDefaultNode,jdbcType=INTEGER},
+      min_status = #{minStatus,jdbcType=VARCHAR},
+      remark = #{remark,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      created_at = #{createdAt,jdbcType=TIMESTAMP},
+      updated_at = #{updatedAt,jdbcType=TIMESTAMP},
+      help_qa_detail_id = #{helpQaDetailId,jdbcType=VARCHAR}
+    where investor_id = #{investorId,jdbcType=INTEGER}
+      and status_id = #{statusId,jdbcType=INTEGER}
+      and min_status_id = #{minStatusId,jdbcType=INTEGER}
+  </update>
+</mapper>

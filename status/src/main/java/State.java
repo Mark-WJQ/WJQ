@@ -5,7 +5,6 @@ import java.util.Map;
 
 /**
  * 事物状态
- * @Author daimt
  * @date 2018/11/1
  **/
 public class State implements Iterable<Function>{

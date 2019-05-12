@@ -7,9 +7,12 @@ import java.util.*;
 /**
  * Created by wangjianqiang on 2017/11/7.
  */
-public class StaticTest {
+public class StackTest {
 
     public static void main(String[] args) {
+
+
+
         Stack<Character> st = new Stack();
 
         String exp = "";

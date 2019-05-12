@@ -1,6 +1,6 @@
 package com.test.wjq.exception;
 
-import com.alibaba.dubbo.common.utils.StringUtils;
+import org.springframework.util.StringUtils;
 
 /**
  * Created by wangjianqiang on 2017/11/14.

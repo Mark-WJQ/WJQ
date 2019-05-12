@@ -30,9 +30,9 @@ public class DBConfig {
     private ApplicationContext context;
 
     @Bean
-    public DataSource getDataSource(HikariConfig properties){
+    public DataSource dataSource(HikariConfig properties){
         HikariDataSource dataSource = new HikariDataSource(properties);
-       // HikariDataSource dataSource =  DataSourceBuilder.create().type(HikariDataSource.class).url(properties.getUrl()).driverClassName(properties.getDriverClassName()).username(properties.getUsername()).password(properties.getPassword()).build();
+       //HikariDataSource dataSource =  DataSourceBuilder.create().type(HikariDataSource.class).url(properties.getUrl()).driverClassName(properties.getDriverClassName()).username(properties.getUsername()).password(properties.getPassword()).build();
         return dataSource;
     }
 

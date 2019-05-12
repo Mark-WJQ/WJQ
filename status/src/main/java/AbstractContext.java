@@ -7,7 +7,6 @@ import java.util.Objects;
 
 /**
  * 状态上下文
- * @Author daimt
  * @date 2018/11/1
  **/
 public abstract class AbstractContext {
