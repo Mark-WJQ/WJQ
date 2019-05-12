@@ -1,8 +1,5 @@
 package com.wjq.thread;
 
-import com.sun.scenario.effect.impl.prism.PrImage;
-import org.tuckey.web.filters.urlrewrite.Run;
-
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.*;

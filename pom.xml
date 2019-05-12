@@ -22,35 +22,6 @@
         <module>mybatis-generator-wjq</module>
         <module>tk-mybatis-wjq</module>
     </modules>
-
-
-    <repositories>
-        <repository>
-            <id>public</id>
-            <name>public</name>
-            <url>http://58.87.70.29:8081/repository/maven-central/</url>
-        </repository>
-        <repository>
-            <id>projectlombok.org</id>
-            <url>http://projectlombok.org/mavenrepo</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>public</id>
-            <name>public</name>
-            <url>http://58.87.70.29:8081/repository/maven-central/</url>
-        </pluginRepository>
-    </pluginRepositories>
-
-    <distributionManagement>
-        <repository>
-            <id>nexus-releases</id>
-            <name>nexus-releases</name>
-            <url>http://58.87.70.29:8081/repository/maven-central/</url>
-        </repository>
-    </distributionManagement>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>5.1.3.RELEASE</spring.version>
@@ -59,8 +30,6 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-
-
     <!--测试-->
 
     <dependencyManagement>

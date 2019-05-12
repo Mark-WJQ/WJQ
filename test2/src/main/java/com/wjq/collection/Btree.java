@@ -1,8 +1,5 @@
 package com.wjq.collection;
 
-import com.sun.source.tree.BinaryTree;
-import com.sun.source.tree.ExpressionTree;
-import com.sun.source.tree.TreeVisitor;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -15,7 +12,7 @@ import java.util.Objects;
  *
  *
  */
-public class Btree implements BinaryTree {
+public class Btree {
 
     private Node root;
 
@@ -150,43 +147,6 @@ public class Btree implements BinaryTree {
         return l + r + 1;
 
 
-    }
-
-
-
-
-
-
-    @Override
-    public ExpressionTree getLeftOperand() {
-        return null;
-    }
-
-    @Override
-    public ExpressionTree getRightOperand() {
-        return null;
-    }
-
-    /**
-     * Gets the kind of this tree.
-     *
-     * @return the kind of this tree.
-     */
-    @Override
-    public Kind getKind() {
-        return null;
-    }
-
-    /**
-     * Accept method used to implement the visitor pattern.  The
-     * visitor pattern is used to implement operations on trees.
-     *
-     * @param visitor
-     * @param data
-     */
-    @Override
-    public <R, D> R accept(TreeVisitor<R, D> visitor, D data) {
-        return null;
     }
 
 
