@@ -1,5 +1,6 @@
 package com.wjq.thread;
 
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -11,6 +12,9 @@ public class ObjectWait {
 
 
     static class T1 implements Runnable{
+
+
+        ThreadTest threadTest = new ThreadTest();
 
         /**
          * When an object implementing interface <code>Runnable</code> is used
@@ -25,24 +29,46 @@ public class ObjectWait {
          */
         @Override
         public void run() {
+
+            System.out.println("start wait");
            testWait();
             System.out.println("hahahhahah");
         }
 
 
+
+
+
         public synchronized void testWait(){
-            try {
-                wait();
+           /* try {
+                synchronized(threadTest) {
+                    threadTest.wait();
+                }
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }
+            }*/
+
+
+                System.out.println("sleep");
+                //Thread.sleep(10000);
+                System.out.println("sleep end");
+
+
+
+
         }
 
         public synchronized void testnotify() throws InterruptedException {
 
-                notify();
+           /* synchronized (threadTest) {
+                threadTest.notify();
+            }
                 TimeUnit.SECONDS.sleep(2);
-            System.out.println("notify");
+            System.out.println("notify");*/
+
+            System.out.println("other thread");
+
+
         }
 
     }
@@ -71,7 +97,7 @@ public class ObjectWait {
         public void run() {
             try {
                 System.out.println("start sleep");
-                TimeUnit.SECONDS.sleep(5);
+                //TimeUnit.SECONDS.sleep(5);
                 t1.testnotify();
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -91,6 +117,10 @@ public class ObjectWait {
         pool.shutdown();
 
     }
+
+
+
+
 
 
 

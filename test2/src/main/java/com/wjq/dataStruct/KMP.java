@@ -15,26 +15,26 @@ public class KMP {
         int i = 0;
         int[] next = new int[T.length];
         next[0] = -1;
-        while (i < T.length-1){
+        while (i < T.length - 1) {
             if (-1 == j || T[i] == T[j]) {
                 i++;
                 j++;
-                if (T[i] != T[j]){
+                if (T[i] != T[j]) {
                     j = next[j];
-                }else {
+                } else {
                     next[i] = j;
                 }
             } else {
                 j = next[j];
             }
         }
-            return next;
+        return next;
     }
 
 
     public static void main(String[] args) {
 
-        char[] P = "hhdhdh".toCharArray();  //模式串
+        char[] P = "abcabcd".toCharArray();  //模式串
 
         System.out.println(JSON.toJSON(getNext(P)));
 
@@ -42,7 +42,7 @@ public class KMP {
         int i = 0;  //查询串下标位置
         int j = 0;  //模式串下标
 
-        char T[] = "jhhdhdhjeeieiiei".toCharArray();  //查询串
+        char T[] = "jhhdhhhjeeieiiei".toCharArray();  //查询串
 
         while (i < T.length && j < P.length) {
             if (-1 == j || T[i] == P[j]) {
@@ -54,23 +54,6 @@ public class KMP {
         }
 
         System.out.println(i);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

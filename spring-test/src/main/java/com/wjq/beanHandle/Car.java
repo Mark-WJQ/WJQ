@@ -10,6 +10,10 @@ import javax.annotation.PostConstruct;
 @Component
 public class Car
 {
+
+
+    private Integer p1;
+
    @PostConstruct
     public static void init(){
         System.out.println("init ----------------");
