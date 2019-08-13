@@ -34,7 +34,7 @@ public class KMP {
 
     public static void main(String[] args) {
 
-        char[] P = "abcabcd".toCharArray();  //模式串
+        char[] P = "abcdaabcddaa".toCharArray();  //模式串
 
         System.out.println(JSON.toJSON(getNext(P)));
 
@@ -53,7 +53,7 @@ public class KMP {
             }
         }
 
-        System.out.println(i);
+        System.out.print(i);
 
 
     }

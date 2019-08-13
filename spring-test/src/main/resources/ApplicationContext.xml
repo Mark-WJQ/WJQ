@@ -12,7 +12,9 @@
   <!-- <bean id="loadTimeWeaver"
          class="org.springframework.context.weaving.DefaultContextLoadTimeWeaver"></bean>-->
 
+<!--
    <context:load-time-weaver aspectj-weaving="autodetect" weaver-class="org.springframework.context.weaving.DefaultContextLoadTimeWeaver"/>
+-->
 
    <bean class="com.wjq.beanHandle.Car" init-method="init"/>
 

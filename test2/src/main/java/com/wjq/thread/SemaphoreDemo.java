@@ -1,10 +1,9 @@
 package com.wjq.thread;
 
-import org.tuckey.web.filters.urlrewrite.Run;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by wangjianqiang on 2018/5/17.
@@ -73,6 +72,8 @@ class Pool<T>{
 
 
     public Pool(Class<T> clazz,int size) throws IllegalAccessException, InstantiationException {
+
+
         this.size = size;
         checkout = new boolean[size];
         available = new Semaphore(size,true);
