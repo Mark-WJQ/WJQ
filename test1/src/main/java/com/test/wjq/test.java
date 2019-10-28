@@ -1,6 +1,8 @@
 package com.test.wjq;
 
+import java.io.File;
 import java.util.Map;
+import java.util.StringTokenizer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -9,7 +11,7 @@ import java.util.regex.Pattern;
  */
 public class test {
 
-    private static final String NODE_SMS_PLACEHOLDER_CONDITION = "condition";
+    public static  String NODE_SMS_PLACEHOLDER_CONDITION = "condition";
     private static final String PLACEHOLDER_LEFT_BORDER_REGEX = "\\{";
     private static final String PLACEHOLDER_RIGHT_BORDER_REGEX = "\\}";
 
@@ -30,6 +32,11 @@ public class test {
     }
 
     public static void main(String[] args){
+
+
+        StringTokenizer stringTokenizer = new StringTokenizer("", File.pathSeparator);
+
+
        /*test service = new test();
         String sql = "select *　from mcc where id = {id} and name = {name}";
         Map keyMap = new HashMap();

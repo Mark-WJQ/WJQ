@@ -22,6 +22,9 @@
         <module>mybatis-generator-wjq</module>
         <module>tk-mybatis-wjq</module>
         <module>order</module>
+        <module>class-byte</module>
+        <module>instrument</module>
+        <module>Netty-wjq</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
