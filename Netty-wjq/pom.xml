@@ -17,7 +17,7 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.31.Final</version>
+            <version>4.1.42.Final</version>
         </dependency>
         <dependency>
             <groupId>com.google.protobuf</groupId>
@@ -85,9 +85,6 @@
                             <goal>compile</goal>
                             <goal>compile-custom</goal>
                         </goals>
-                        <configuration>
-                            <outputBaseDirectory>src/main/java/</outputBaseDirectory>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
