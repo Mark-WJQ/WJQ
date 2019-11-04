@@ -33,6 +33,7 @@ public class NameChecker {
 
     private class NameCheckerScanner extends ElementScanner8<Void,Void>{
 
+        //类
         @Override
         public Void visitType(TypeElement e, Void aVoid) {
             scan(e.getTypeParameters(),aVoid);
@@ -41,6 +42,7 @@ public class NameChecker {
              return null;
         }
 
+        //方法
         @Override
         public Void visitExecutable(ExecutableElement e, Void aVoid) {
             if (e.getKind() == ElementKind.METHOD){
@@ -54,6 +56,7 @@ public class NameChecker {
             return null;
         }
 
+        //变量
         @Override
         public Void visitVariable(VariableElement e, Void aVoid) {
             // 如果这个Variable是枚举或常量，则按大写命名检查，否则按照驼峰

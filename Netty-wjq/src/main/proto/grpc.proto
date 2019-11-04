@@ -3,15 +3,48 @@ syntax = "proto3";
 package com.wjq.netty.protobuffer;
 
 option java_package ="com.wjq.netty.protobuffer";
-option java_outer_classname = "HelloServiceJ";
+//option java_outer_classname = "HelloService";
 option java_multiple_files = true;
 
 
 
 service HelloService{
 
+    //一问一答
     rpc SayHello(HelloRequest ) returns (HelloReponse){}
+
+    //流式返回
+    rpc GetStudent(StreamRequest) returns (stream StudentReponse){}
+    //流式请求
+    rpc GetStudents(stream StreamRequest) returns (StudentReponseList){}
+
+
+    //流式请求与返回
+    rpc GetStudentsStream(stream StreamRequest) returns (stream StreamReponse){}
+
+
+
+
+
+
 }
+
+
+message StreamRequest{
+
+    int32 id = 1;
+
+}
+
+
+message StudentReponse{
+
+    string name = 1;
+    int32 age = 2;
+    string city = 3;
+
+}
+
 
 message HelloRequest{
     string greet = 1;
@@ -19,6 +52,19 @@ message HelloRequest{
 
 message HelloReponse{
     string reply = 1;
+}
+
+
+
+message StudentReponseList{
+    repeated StudentReponse studentReponse = 1;
+}
+
+
+message StreamReponse{
+
+    string reponse_info = 1;
+
 }
 
 
