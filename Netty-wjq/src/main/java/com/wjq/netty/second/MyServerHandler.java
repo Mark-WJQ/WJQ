@@ -29,4 +29,14 @@ public class MyServerHandler extends SimpleChannelInboundHandler<String> {
         cause.printStackTrace();
         ctx.close();
     }
+
+
+    @Override
+    public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
+        super.handlerAdded(ctx);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(~4);
+    }
 }

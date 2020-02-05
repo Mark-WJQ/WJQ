@@ -2,6 +2,7 @@ package com.wjq.netty.third;
 
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.ChannelOutboundHandler;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.channel.group.ChannelGroup;
 import io.netty.channel.group.DefaultChannelGroup;
@@ -26,6 +27,7 @@ public class MyChatHandler extends SimpleChannelInboundHandler<String> {
      */
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
+
 
         Channel channel = ctx.channel();
         channels.forEach(c ->{

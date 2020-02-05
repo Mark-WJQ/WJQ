@@ -16,24 +16,22 @@ public class RevertLinked {
 
 
         RevertLinked revertLinked = new RevertLinked();
-        revertLinked.revert(n1);
+        Node node = revertLinked.revert(n1, 2, 3);
 
-        revertLinked.del(n4,3);
+        //revertLinked.del(n4, 3);
         System.out.println();
-
-
 
 
     }
 
 
-    public void del(Node first,int i){
+    public void del(Node first, int i) {
 
 
         do {
 
 
-            if (first.index == i){
+            if (first.index == i) {
                 first.index = first.next.index;
                 Node node = first.next;
                 first.next = node.next;
@@ -42,16 +40,13 @@ public class RevertLinked {
             }
             first = first.next;
 
-        }while (first.next != null);
+        } while (first.next != null);
 
 
     }
 
 
-
-    public void revert(Node first){
-
-
+    public void revert(Node first) {
 
         Node node = first;
         do {
@@ -60,19 +55,59 @@ public class RevertLinked {
             first = node.next;
             node.next = first.next;
             first.next = cur;
-        }while (node.next != null);
+        } while (node.next != null);
 
     }
 
 
-   static class Node{
-        int index;
+    public Node revert(Node first, int m, int n) {
 
-       public Node(int index) {
-           this.index = index;
-       }
+        if (m > n)
+            return first;
 
-       Node next;
+        Node node = first;
+
+        int index = 0;
+        Node mNode = null;
+        int m1 = m - 1;
+        Node pre = new Node(null);
+        pre.next = first;
+        do {
+            ++index;
+            if (index == m) {
+                mNode = node;
+            } else if (index > m && index <= n) {
+                Node cur = mNode;
+                mNode = node.next;
+                if (first == cur) {
+                    first = mNode;
+                }
+                node.next = mNode.next;
+                mNode.next = cur;
+                pre.next = mNode;
+            } else {
+                if (index == m1) {
+                    pre = node;
+                }
+                node = node.next;
+            }
+
+        } while (node.next != null);
+
+        return first;
+
+
+    }
+
+
+    static class Node {
+        Integer index;
+
+        public Node(Integer index) {
+            this.index = index;
+        }
+
+        Node next;
     }
 
 }
