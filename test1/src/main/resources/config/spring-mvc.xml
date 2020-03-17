@@ -11,7 +11,7 @@
         <!--启用springMvc 的注解功能，完成请求和注解pojo的映射-->
         <mvc:annotation-driven/>
         <!--使用注解的包包括子集-->
-        <context:component-scan base-package="com.wecash.wjq.controller"/>
+        <context:component-scan base-package="com.test.wjq.controller"/>
         <!--解决js,css等资源访问不到的问题-->
         <mvc:resources mapping="/js/**" location="/js/"/>
 

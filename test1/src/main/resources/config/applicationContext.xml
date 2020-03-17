@@ -59,7 +59,7 @@
 
     <!-- DAO接口所在包名，Spring会自动查找其下的类,完成映射 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.wecash.wjq.dao"/>
+        <property name="basePackage" value="com.wjq.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
     </bean>
 
@@ -92,7 +92,7 @@
     <!-- 配置事务切面 -->
     <aop:config>
 
-        <aop:pointcut id="serviceOperation" expression="execution(* com.wecash.wjq.service.*.*(..))"/>
+        <aop:pointcut id="serviceOperation" expression="execution(* com.test.wjq.service.*.*(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceOperation"></aop:advisor>
     </aop:config>
 
