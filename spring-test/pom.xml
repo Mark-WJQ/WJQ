@@ -79,6 +79,18 @@
         </plugins>
     </build>
 
+    <profiles>
+    <profile>
+        <id>closedLoop</id>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+        <properties>
+            <props>props</props>
+        </properties>
+    </profile>
+    </profiles>
+
 
 
 

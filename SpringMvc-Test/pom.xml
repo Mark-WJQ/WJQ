@@ -42,14 +42,27 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.apache.tomcat.embed</groupId>
-            <artifactId>tomcat-embed-core</artifactId>
-            <version>9.0.13</version>
-        </dependency>
     </dependencies>
 
     <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.eclipse.jetty</groupId>
+                    <artifactId>jetty-maven-plugin</artifactId>
+                    <version>9.4.27.v20200227</version>
+                    <configuration>
+                        <webAppConfig>
+                            <contextPath>/</contextPath>
+                        </webAppConfig>
+                        <httpConnector>
+                            <port>8081</port>
+                            <idleTimeout>10000</idleTimeout>
+                        </httpConnector>
+                    </configuration>
+                </plugin>
+
+            </plugins>
+
         <finalName>SpringMvc-Test</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
