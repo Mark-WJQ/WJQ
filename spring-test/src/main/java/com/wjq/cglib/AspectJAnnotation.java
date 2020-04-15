@@ -2,8 +2,7 @@ package com.wjq.cglib;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.DeclareParents;
-import org.aspectj.lang.reflect.Pointcut;
+import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
 /**
@@ -14,8 +13,13 @@ import org.springframework.stereotype.Component;
 public class AspectJAnnotation {
 
 
-    @Before("@annotation(cgLIb))")
-    public void invoke(CgLIb cgLIb){
+    @Pointcut("@annotation(CgLIb)")
+    public void cut(){
+
+    }
+
+    @Before("cut()")
+    public void invoke(){
 
         System.out.println("before");
 
