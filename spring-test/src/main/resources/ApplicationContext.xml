@@ -21,4 +21,11 @@
 
 
 
+   <aop:config expose-proxy="true" proxy-target-class="true">
+      <aop:aspect ref="myMethodInterceptor">
+      </aop:aspect>
+   </aop:config>
+
+
+
 </beans>

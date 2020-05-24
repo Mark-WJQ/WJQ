@@ -1,10 +1,6 @@
 package com.wjq;
 
-import jdk.nashorn.internal.objects.annotations.Function;
-
-import java.io.FileOutputStream;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 

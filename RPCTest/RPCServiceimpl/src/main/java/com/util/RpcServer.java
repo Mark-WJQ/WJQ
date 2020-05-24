@@ -6,7 +6,6 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import org.apache.commons.collections.MapUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
@@ -14,7 +13,6 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -64,7 +62,7 @@ public class RpcServer implements ApplicationContextAware,InitializingBean {
 
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         Map<String,Object> serviceBeanMap = applicationContext.getBeansWithAnnotation(RpcService.class);
-        if (MapUtils.isNotEmpty(serviceBeanMap)){
+        if (!serviceBeanMap.isEmpty()){
             for (Object serviceBean : serviceBeanMap.values()){
                String interfaceName = serviceBean.getClass().getAnnotation(RpcService.class).value().getName();
               // handleMap.put(interfaceName,serviceBean);

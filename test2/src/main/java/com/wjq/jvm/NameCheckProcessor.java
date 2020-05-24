@@ -1,6 +1,5 @@
 package com.wjq.jvm;
 
-import com.google.auto.service.AutoService;
 
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
@@ -11,9 +10,8 @@ import java.util.Set;
 /**
  * Created by wangjianqiang on 2018/7/1.
  */
-@SupportedAnnotationTypes("*")
-@SupportedSourceVersion(SourceVersion.RELEASE_8)
-@AutoService(Processor.class)
+//@SupportedAnnotationTypes("*")
+//@SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class NameCheckProcessor extends AbstractProcessor {
 
     private NameChecker nameChecker;
