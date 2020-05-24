@@ -1,4 +1,50 @@
 package com.wjq.monitor.domain;
 
-public @interface Monitor {
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface Monitor{
+
+
+
+    /**
+     * 报警异常
+     * @return
+     */
+    Class<? extends  Throwable>[] alarm();
+
+    /**
+     * 记录可用率异常
+     * @return
+     */
+    Class<? extends  Throwable>[] error();
+
+
+    /**
+     * 忽略记录
+     * @return
+     */
+    Class<? extends  Throwable>[] ingoreError();
+
+
+    /**
+     * 报警code
+     * @return
+     */
+    String[] alarmCodes();
+
+
+    /**
+     * 记录可用率code
+     * @return
+     */
+    String[] errorCodes();
+
+
+
 }
