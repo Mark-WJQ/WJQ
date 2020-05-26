@@ -7,7 +7,7 @@
     </sql>
 
     <resultMap id="User" type="com.test.wjq.bean.User">
-        <result column="" property=""></result>
+       <!-- <result column="" property=""></result>-->
 
     </resultMap>
 

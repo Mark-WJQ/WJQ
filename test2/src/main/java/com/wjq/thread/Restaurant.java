@@ -1,13 +1,8 @@
 package com.wjq.thread;
 
-import org.tuckey.web.filters.urlrewrite.Run;
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by wangjianqiang on 2018/5/13.
