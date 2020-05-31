@@ -23,8 +23,8 @@ public class DirectPointCut implements Pointcut {
             @Override
             public boolean matches(Class<?> aClass) {
 
-                if (aClass.isAnnotationPresent(anno))
-                    return true;
+              /*  if (aClass.isAnnotationPresent(anno))
+                    return true;*/
                 return false;
             }
         };

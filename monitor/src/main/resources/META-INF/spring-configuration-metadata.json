@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "monitor.enable",
+      "description": "监控开关",
+      "type": "java.lang.Boolean",
+      "defaultValue": false
+    },
+    {
+      "name": "monitor.expression",
+      "description": "切点表达式",
+      "type": "java.lang.String",
+      "sourceType": "com.wjq.monitor.domain.MonitorConfig"
+    },
+    {
+      "name": "monitor.annotation",
+      "description": "切点枚举",
+      "type": "java.lang.Class",
+      "sourceType": "com.wjq.monitor.domain.MonitorConfig"
+    },{
+      "name": "monitor.alarmExceptions",
+      "description": "报警异常",
+      "type": "java.util.List<java.lang.Class>",
+      "sourceType": "com.wjq.monitor.domain.MonitorConfig"
+    }
+
+  ]
+}

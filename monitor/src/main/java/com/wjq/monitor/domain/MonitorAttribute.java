@@ -9,34 +9,53 @@ public interface MonitorAttribute extends MonitorDefinition {
      * 报警异常
      * @return
      */
-    boolean alarm(Throwable t);
+   default boolean alarm(Throwable t){
+       return false;
+   }
 
     /**
-     * 记录可用率异常
+     * 记录可用率异常,默认对全部异常记录
      * @return
      */
-    boolean error(Throwable t);
+    default boolean error(Throwable t){
+        return true;
+    }
 
 
     /**
      * 忽略异常
+     * 默认不忽略任何异常
      * @param t
      * @return
      */
-    boolean ingoreError(Throwable t);
+   default boolean ingoreError(Throwable t){
+        return false;
+    }
 
     /**
      * 报警code
      * @return
      */
-    boolean alarmCodes(String code);
+   default boolean alarmCode(String code){
+       return false;
+   }
 
 
     /**
      * 记录可用率code
+     * 默认记录所有不被忽略的code，以免新增加code后不知道情况
      * @return
      */
-    boolean errorCodes(String code);
+   default boolean errorCode(String code){
+       return true;
+   }
+
+    /**
+     * 忽略code，认为是正常code
+     * @param code
+     * @return
+     */
+    boolean ingoreCode(String code);
 
 
 }

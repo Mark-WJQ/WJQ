@@ -11,39 +11,51 @@ import java.lang.annotation.Target;
 public @interface Monitor{
 
 
+    /**
+     * 唯一标识
+     * @return
+     */
+    String key();
 
     /**
      * 报警异常
      * @return
      */
-    Class<? extends  Throwable>[] alarm();
+    Class<? extends  Throwable>[] alarm() default {};
 
     /**
      * 记录可用率异常
      * @return
      */
-    Class<? extends  Throwable>[] error();
+    Class<? extends  Throwable>[] error() default {};
 
 
     /**
      * 忽略记录
      * @return
      */
-    Class<? extends  Throwable>[] ingoreError();
+    Class<? extends  Throwable>[] ingoreError() default {};
 
 
     /**
      * 报警code
      * @return
      */
-    String[] alarmCodes();
+    String[] alarmCodes() default {};
 
 
     /**
      * 记录可用率code
      * @return
      */
-    String[] errorCodes();
+    String[] errorCodes() default {};
+
+
+    /**
+     * 忽略code
+     * @return
+     */
+    String[] ingoreCodes();
 
 
 

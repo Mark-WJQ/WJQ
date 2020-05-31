@@ -7,6 +7,8 @@ import com.wjq.monitor.domain.MonitorAttributeSource;
 import com.wjq.monitor.domain.Result;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.aop.support.AopUtils;
 
 import java.util.Objects;
@@ -16,9 +18,10 @@ import java.util.Objects;
  */
 public class MonitorInterceptor implements MethodInterceptor {
 
+    private Logger logger = LoggerFactory.getLogger(MonitorInterceptor.class);
+
 
     private AlarmSupport alarmSupport;
-
 
     /**
      * 报警属性源
@@ -34,49 +37,58 @@ public class MonitorInterceptor implements MethodInterceptor {
         AlarmInfo alarmInfo = alarmSupport.registerInfo(invocation.getMethod(), AopUtils.getTargetClass(invocation.getThis()),attribute);
 
         try {
-
-
             Object result = invocation.proceed();
             if (Objects.nonNull(result) && result instanceof Result) {
                 try {
                     String code = ((Result) result).getCode();
-                    if (attribute.errorCodes(code)) {
-                        //todo 记录可用率
-                        alarmInfo.setResult((Result) result);
-                        alarmSupport.functionError(alarmInfo);
-                    }
+                    if (attribute.ingoreCode(code)){
 
-                    if (attribute.alarmCodes(code)) {
-                        //todo 报警
-                        //todo 报警记录
-                        alarmInfo.setResult((Result) result);
-                        alarmSupport.alarm(alarmInfo);
+                    }else {
+                        if (attribute.errorCode(code)) {
+                            if (Objects.nonNull(alarmInfo)) {
+                                //todo 记录可用率
+                                alarmInfo.setResult((Result) result);
+                                alarmSupport.functionError(alarmInfo);
+                            }
+                        }
+
+                        if (attribute.alarmCode(code)) {
+                            //todo 报警
+                            //todo 报警记录
+                            if (Objects.nonNull(alarmInfo)) {
+                                alarmInfo.setResult((Result) result);
+                                alarmSupport.alarm(alarmInfo);
+                            }
+                        }
                     }
                 } catch (Throwable t) {
                     //TODO 忽略以免影响正常流程，或是日志记录
+                    logger.error("报警处理异常请注意",t);
                 }
             }
 
             return result;
 
         } catch (Throwable e) {
-            //todo 日志记录
+            try {
+                if (attribute.ingoreError(e)) {
 
-            if (attribute.ingoreError(e)) {
+                } else {
 
-            } else {
+                    if (attribute.error(e)) {
+                        //todo 记录可用率
+                        alarmInfo.setException(e);
+                        alarmSupport.functionError(alarmInfo);
+                    }
 
-                if (attribute.error(e)) {
-                    //todo 记录可用率
-                    alarmInfo.setException(e);
-                    alarmSupport.functionError(alarmInfo);
+                    if (attribute.alarm(e)) {
+                        //todo 报警记录
+                        alarmInfo.setException(e);
+                        alarmSupport.alarm(alarmInfo);
+                    }
                 }
-
-                if (attribute.alarm(e)) {
-                    //todo 报警记录
-                    alarmInfo.setException(e);
-                    alarmSupport.alarm(alarmInfo);
-                }
+            }catch (Throwable t){
+                logger.error("报警处理异常请注意",t);
             }
             throw e;
         } finally {
