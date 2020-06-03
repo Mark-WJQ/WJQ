@@ -1,4 +1,4 @@
-package com.wjq.monitor.interceptor;
+package com.wjq.monitor.config;
 
 import com.wjq.monitor.alarm.AlarmSupport;
 import com.wjq.monitor.alarm.AlarmSupportImpl;
@@ -6,6 +6,8 @@ import com.wjq.monitor.annotation.DefaultMonitorAnnotationParser;
 import com.wjq.monitor.annotation.Monitor;
 import com.wjq.monitor.annotation.MonitorAnnotationParser;
 import com.wjq.monitor.domain.*;
+import com.wjq.monitor.interceptor.MonitorInterceptor;
+import com.wjq.monitor.interceptor.MonitorPointcutAdapter;
 import org.aopalliance.aop.Advice;
 import org.springframework.aop.ClassFilter;
 import org.springframework.aop.MethodMatcher;
@@ -17,11 +19,10 @@ import org.springframework.aop.support.StaticMethodMatcher;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import javax.annotation.Resource;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.util.List;
@@ -30,11 +31,17 @@ import java.util.List;
  * @author wangjianqiang24
  * @date 2020/5/29
  */
-@Resource
 @Configuration
 @ConditionalOnProperty(name = "monitor.enable", havingValue = "true")
-@EnableConfigurationProperties(MonitorConfig.class)
 public class MonitorConfiguration {
+
+
+    @Bean
+    @ConfigurationProperties(prefix = "monitor")
+    @ConditionalOnMissingBean
+    public MonitorConfig monitorConfig(){
+        return new MonitorConfig();
+    }
 
 
     @Bean

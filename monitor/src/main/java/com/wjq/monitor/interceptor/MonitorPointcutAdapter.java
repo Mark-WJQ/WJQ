@@ -3,7 +3,7 @@ package com.wjq.monitor.interceptor;
 import org.springframework.aop.Pointcut;
 
 /**
- * pointCut 适配器
+ * pointcut 适配器
  * @author wangjianqiang24
  * @date 2020/5/26
  */
@@ -16,7 +16,6 @@ public class MonitorPointcutAdapter {
     }
 
     public Pointcut getPointcut() {
-
         return pointcut;
     }
 }

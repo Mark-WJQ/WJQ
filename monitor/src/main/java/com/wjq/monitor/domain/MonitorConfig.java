@@ -1,14 +1,11 @@
 package com.wjq.monitor.domain;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
-
 import java.lang.annotation.Annotation;
 
 /**
  * @author wangjianqiang24
  * @date 2020/5/29
  */
-@ConfigurationProperties(prefix = "monitor",ignoreInvalidFields = true,ignoreUnknownFields = true)
 public class MonitorConfig {
 
 
