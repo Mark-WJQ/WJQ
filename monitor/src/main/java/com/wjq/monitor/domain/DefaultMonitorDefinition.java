@@ -7,17 +7,15 @@ package com.wjq.monitor.domain;
 public class DefaultMonitorDefinition implements MonitorDefinition {
 
 
+    /**
+     * 记录主键
+     */
    private String key;
 
     /**
      * 应用名
      */
     private String appName;
-
-    /**
-     * 主键前缀
-     */
-    private String keyPre;
 
     /**
      * 报警异常
@@ -31,7 +29,7 @@ public class DefaultMonitorDefinition implements MonitorDefinition {
      *
      * @return
      */
-    private Class<? extends Throwable>[] error;
+    private Class<? extends Throwable>[] errors;
 
 
     /**
@@ -65,6 +63,7 @@ public class DefaultMonitorDefinition implements MonitorDefinition {
      */
     private String[] ingoreCodes;
 
+
     @Override
     public String getKey() {
         return key;
@@ -78,9 +77,6 @@ public class DefaultMonitorDefinition implements MonitorDefinition {
         this.appName = appName;
     }
 
-    public void setKeyPre(String keyPre) {
-        this.keyPre = keyPre;
-    }
 
     @Override
     public Class<? extends Throwable>[] getAlarms() {
@@ -92,12 +88,12 @@ public class DefaultMonitorDefinition implements MonitorDefinition {
     }
 
     @Override
-    public Class<? extends Throwable>[] getError() {
-        return error;
+    public Class<? extends Throwable>[] getErrors() {
+        return errors;
     }
 
-    public void setError(Class<? extends Throwable>[] error) {
-        this.error = error;
+    public void setErrors(Class<? extends Throwable>[] errors) {
+        this.errors = errors;
     }
 
     @Override
@@ -146,13 +142,4 @@ public class DefaultMonitorDefinition implements MonitorDefinition {
         return this.appName;
     }
 
-    /**
-     * 获取报警key
-     *
-     * @return
-     */
-    @Override
-    public String getKeyPre() {
-        return this.keyPre;
-    }
 }

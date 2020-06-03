@@ -1,6 +1,6 @@
 package com.wjq.monitor.alarm;
 
-import com.wjq.monitor.domain.Result;
+import com.wjq.monitor.result.Result;
 
 /**
  * 报警注册参数

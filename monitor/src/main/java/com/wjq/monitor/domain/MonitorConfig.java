@@ -8,7 +8,7 @@ import java.lang.annotation.Annotation;
  * @author wangjianqiang24
  * @date 2020/5/29
  */
-@ConfigurationProperties(prefix = "monitor")
+@ConfigurationProperties(prefix = "monitor",ignoreInvalidFields = true,ignoreUnknownFields = true)
 public class MonitorConfig {
 
 
@@ -62,6 +62,7 @@ public class MonitorConfig {
      * 成功或幂等
      */
     private String[] ingoreCodes;
+
 
     public String getExpression() {
         return expression;
@@ -142,4 +143,5 @@ public class MonitorConfig {
     public void setIngoreCodes(String[] ingoreCodes) {
         this.ingoreCodes = ingoreCodes;
     }
+
 }

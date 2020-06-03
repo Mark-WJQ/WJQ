@@ -57,5 +57,11 @@ public interface MonitorAttribute extends MonitorDefinition {
      */
     boolean ingoreCode(String code);
 
+    /**
+     * 是合并配置信息
+     * @return
+     */
+    boolean mergeConfig();
+
 
 }

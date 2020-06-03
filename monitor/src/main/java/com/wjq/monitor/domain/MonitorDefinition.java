@@ -12,11 +12,6 @@ public interface MonitorDefinition {
      */
     String getAppName();
 
-    /**
-     * 获取报警key
-     * @return
-     */
-    String getKeyPre();
 
     /**
      * 获取唯一标识
@@ -35,7 +30,7 @@ public interface MonitorDefinition {
      * 异常记录
      * @return
      */
-    Class<? extends Throwable>[] getError();
+    Class<? extends Throwable>[] getErrors();
 
     /**
      * 忽略异常

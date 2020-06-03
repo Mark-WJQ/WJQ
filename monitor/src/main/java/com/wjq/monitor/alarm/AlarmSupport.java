@@ -15,7 +15,7 @@ public interface AlarmSupport {
      *
      * @return
      */
-    AlarmInfo registerInfo(Method method, Class targetClass, MonitorAttribute attribute);
+    AlarmInfo registerInfo(Method method, Class targetClass,  MonitorAttribute attribute);
 
     /**
      * 记录可用率
