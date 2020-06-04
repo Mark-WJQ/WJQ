@@ -21,11 +21,12 @@ public class AlarmSupportImpl implements AlarmSupport {
      *
      * @param method      当前执行方法
      * @param targetClass 该方法所属的类
-     * @param attribute
+     * @param arguments 方法请求参数
+     * @param attribute 监控属性
      * @return
      */
     @Override
-    public AlarmInfo registerInfo(Method method, Class targetClass, MonitorAttribute attribute) {
+    public AlarmInfo registerInfo(Method method, Class targetClass,Object[] arguments, MonitorAttribute attribute) {
         logger.info("开始记录");
         return new AlarmInfoImpl();
     }
@@ -38,7 +39,14 @@ public class AlarmSupportImpl implements AlarmSupport {
     @Override
     public void functionError(AlarmInfo info) {
 
-        logger.info("大王遇到困难了，记录一下");
+
+        if (info.exception()){
+
+        }
+
+
+
+        logger.error("大王遇到困难了，记录一下");
     }
 
     /**
@@ -59,5 +67,16 @@ public class AlarmSupportImpl implements AlarmSupport {
     @Override
     public void end(AlarmInfo info) {
         logger.info("可以结束了");
+    }
+
+    /**
+     * 忽略情况
+     *
+     * @param alarmInfo
+     */
+    @Override
+    public void ingore(AlarmInfo alarmInfo) {
+        logger.warn("忽略异常情况：{}");
+
     }
 }

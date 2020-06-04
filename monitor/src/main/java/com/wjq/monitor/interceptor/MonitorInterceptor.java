@@ -15,7 +15,8 @@ import org.springframework.util.Assert;
 import java.util.Objects;
 
 /**
- * 切面
+ * 切面操作类，该类是对匹配到的对象做了代理处理，
+ * 可以记录执行过程中出现的一些异常情况
  *
  * @author wangjianqiang24
  * @date 2020/06/02
@@ -25,6 +26,9 @@ public class MonitorInterceptor implements MethodInterceptor {
     private Logger logger = LoggerFactory.getLogger(MonitorInterceptor.class);
 
 
+    /**
+     * 实际记录对象
+     */
     private AlarmSupport alarmSupport;
 
     /**
@@ -48,11 +52,8 @@ public class MonitorInterceptor implements MethodInterceptor {
 
     @Override
     public Object invoke(MethodInvocation invocation) throws Throwable {
-
         MonitorAttribute attribute = attributeSource.getMonitorAttribute(invocation.getMethod(), AopUtils.getTargetClass(invocation.getThis()));
-
-        AlarmInfo alarmInfo = alarmSupport.registerInfo(invocation.getMethod(), AopUtils.getTargetClass(invocation.getThis()), attribute);
-
+        AlarmInfo alarmInfo = alarmSupport.registerInfo(invocation.getMethod(), AopUtils.getTargetClass(invocation.getThis()), invocation.getArguments(), attribute);
         try {
             Object result = invocation.proceed();
             if (Objects.nonNull(result) && result instanceof Result && Objects.nonNull(attribute) && Objects.nonNull(alarmInfo)) {
@@ -72,15 +73,17 @@ public class MonitorInterceptor implements MethodInterceptor {
 
     /**
      * 处理异常
-     * @param attribute
-     * @param e
-     * @param alarmInfo
+     *
+     * @param attribute  属性
+     * @param e 异常
+     * @param alarmInfo 注册报警信息
      */
     private void handleError(MonitorAttribute attribute, Throwable e, AlarmInfo alarmInfo) {
         try {
             alarmInfo.setException(e);
             if (attribute.ingoreError(e)) {
                 //donothing or just log
+                alarmSupport.ingore(alarmInfo);
             } else {
                 if (attribute.error(e)) {
                     //记录可用率
@@ -108,7 +111,7 @@ public class MonitorInterceptor implements MethodInterceptor {
             alarmInfo.setResult(result);
             String code = result.getCode();
             if (attribute.ingoreCode(code)) {
-
+                alarmSupport.ingore(alarmInfo);
             } else {
                 if (attribute.errorCode(code)) {
                     // 记录可用率

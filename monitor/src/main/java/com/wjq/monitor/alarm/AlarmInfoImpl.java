@@ -8,6 +8,7 @@ import com.wjq.monitor.result.Result;
  */
 public class AlarmInfoImpl implements AlarmInfo {
 
+
    private Result result;
 
    private Throwable t;
@@ -30,6 +31,16 @@ public class AlarmInfoImpl implements AlarmInfo {
     @Override
     public void setException(Throwable t) {
         this.t = t;
+    }
+
+    /**
+     * 是否是异常情况
+     *
+     * @return
+     */
+    @Override
+    public boolean exception() {
+        return t == null;
     }
 
 

@@ -18,6 +18,12 @@ public interface AlarmInfo {
      */
     void setException(Throwable t);
 
+    /**
+     * 是否是异常情况
+     * @return
+     */
+    boolean exception();
+
 
 
 

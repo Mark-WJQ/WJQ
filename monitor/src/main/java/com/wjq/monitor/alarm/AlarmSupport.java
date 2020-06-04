@@ -4,7 +4,7 @@ import com.wjq.monitor.domain.MonitorAttribute;
 
 import java.lang.reflect.Method;
 
-public interface AlarmSupport {
+public interface AlarmSupport<T extends AlarmInfo> {
 
     /**
      * 获取报警信息组成信息,
@@ -15,24 +15,30 @@ public interface AlarmSupport {
      *
      * @return
      */
-    AlarmInfo registerInfo(Method method, Class targetClass,  MonitorAttribute attribute);
+    AlarmInfo registerInfo(Method method, Class targetClass,Object[] arguments,  MonitorAttribute attribute);
 
     /**
      * 记录可用率
      * @param info 可用率信息
      */
-    void functionError(AlarmInfo info);
+    void functionError(T info);
 
     /**
      * 报警
      * @param info 报警信息
      */
-    void alarm(AlarmInfo info);
+    void alarm(T info);
 
     /**
      * 结束记录
      * @param info
      */
-    void end(AlarmInfo info);
+    void end(T info);
+
+    /**
+     * 忽略情况
+     * @param alarmInfo
+     */
+    void ingore(T alarmInfo);
 
 }
