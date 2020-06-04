@@ -1,8 +1,11 @@
 package com.wjq.monitor.domain;
 
+import com.wjq.monitor.annotation.Monitor;
+
 import java.lang.annotation.Annotation;
 
 /**
+ * 监控配置类
  * @author wangjianqiang24
  * @date 2020/5/29
  */
@@ -16,15 +19,21 @@ public class MonitorConfig {
 
 
     /**
-     * 注解类路径
+     * 注解类,
+     * 会对该注解所修饰的类做aop代理
      */
     private Class<? extends Annotation> annotation;
 
 
+    /**
+     * 应用名
+     */
     private String appName;
 
     /**
-     * 前缀
+     * 主键前缀，针对每个方法会有一个key
+     * 在组成key是会用到前缀
+     * @see Monitor#key()
      */
     private String keyPre;
 
