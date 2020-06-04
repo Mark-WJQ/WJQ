@@ -1,6 +1,5 @@
-package com.wjq.monitor.domain;
+package com.wjq.monitor.interceptor;
 
-import org.springframework.aop.ClassFilter;
 import org.springframework.aop.MethodMatcher;
 import org.springframework.aop.support.StaticMethodMatcherPointcut;
 import org.springframework.aop.support.annotation.AnnotationMethodMatcher;
@@ -18,9 +17,14 @@ import java.lang.reflect.Method;
 public class MonitorAnnotationPointcut extends StaticMethodMatcherPointcut {
 
     public MonitorAnnotationPointcut(Class<? extends Annotation> clazz) {
+        this(clazz,new AnnotationCandidateClassFilter(clazz));
+    }
+
+
+    public MonitorAnnotationPointcut(Class<? extends Annotation> clazz,CandidateClassFilter filter) {
         this.annotationType = clazz;
         matcher = new AnnotationMethodMatcher(clazz,true);
-        setClassFilter(new AnnotationCandidateClassFilter(clazz));
+        setClassFilter(filter);
     }
 
     /**
@@ -35,7 +39,7 @@ public class MonitorAnnotationPointcut extends StaticMethodMatcherPointcut {
     /**
      * 方法匹配
      */
-    MethodMatcher matcher;
+    private MethodMatcher matcher;
 
     /**
      * Perform static checking whether the given method matches.
@@ -57,7 +61,7 @@ public class MonitorAnnotationPointcut extends StaticMethodMatcherPointcut {
     }
 
 
-    private static class AnnotationCandidateClassFilter implements ClassFilter {
+    private static class AnnotationCandidateClassFilter extends CandidateClassFilter {
 
         private final Class<? extends Annotation> annotationType;
 

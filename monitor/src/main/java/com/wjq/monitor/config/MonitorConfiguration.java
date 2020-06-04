@@ -6,6 +6,8 @@ import com.wjq.monitor.annotation.DefaultMonitorAnnotationParser;
 import com.wjq.monitor.annotation.Monitor;
 import com.wjq.monitor.annotation.MonitorAnnotationParser;
 import com.wjq.monitor.domain.*;
+import com.wjq.monitor.interceptor.CandidateClassFilter;
+import com.wjq.monitor.interceptor.MonitorAnnotationPointcut;
 import com.wjq.monitor.interceptor.MonitorInterceptor;
 import com.wjq.monitor.interceptor.MonitorPointcutAdapter;
 import org.aopalliance.aop.Advice;
@@ -54,13 +56,17 @@ public class MonitorConfiguration {
 
     @Bean
     @ConditionalOnProperty(prefix = "monitor", name = "annotation")
-    public MonitorPointcutAdapter annotationMatchingPointcut(MonitorConfig monitorConfig) {
+    public MonitorPointcutAdapter annotationMatchingPointcut(MonitorConfig monitorConfig, ObjectProvider<CandidateClassFilter> classFilter) {
+        if (classFilter.getIfAvailable() != null){
+            Pointcut pointcut = new MonitorAnnotationPointcut(monitorConfig.getAnnotation(),classFilter.getIfAvailable());
+            return new MonitorPointcutAdapter(pointcut);
+        }
         return getAnnoAdapter(monitorConfig.getAnnotation());
     }
 
     @Bean
     @ConditionalOnMissingBean
-    public MonitorPointcutAdapter defaultPointcutAdapter(MonitorAttributeSource attributeSource) {
+    public MonitorPointcutAdapter defaultPointcutAdapter() {
         return getAnnoAdapter(Monitor.class);
     }
 
@@ -126,7 +132,8 @@ public class MonitorConfiguration {
     }
 
 
-    private class FALSEPointcut implements Pointcut {
+    private  class FALSEPointcut implements Pointcut {
+
         @Override
         public ClassFilter getClassFilter() {
             return clazz -> false;
