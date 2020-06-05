@@ -41,7 +41,7 @@ public class DefaultMonitorAnnotationParser implements MonitorAnnotationParser {
      * @param attributes
      * @return
      */
-    private MonitorAttribute parseMonitorAnnotation(AnnotationAttributes attributes) {
+    protected MonitorAttribute parseMonitorAnnotation(AnnotationAttributes attributes) {
 
         DefaultMonitorAttribute monitorAttribute = new DefaultMonitorAttribute();
         monitorAttribute.setAlarmCodes(attributes.getStringArray("alarmCodes"));

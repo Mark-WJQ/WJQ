@@ -1,6 +1,6 @@
 package com.wjq.monitor.alarm;
 
-import com.wjq.monitor.domain.MonitorAttribute;
+import com.wjq.monitor.domain.DefaultMonitorAttribute;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,7 +10,7 @@ import java.lang.reflect.Method;
  * @author wangjianqiang24
  * @date 2020/6/1
  */
-public class AlarmSupportImpl implements AlarmSupport {
+public class AlarmSupportImpl implements AlarmSupport<AlarmInfoImpl, DefaultMonitorAttribute> {
 
     private static Logger logger = LoggerFactory.getLogger(AlarmSupportImpl.class);
 
@@ -26,7 +26,7 @@ public class AlarmSupportImpl implements AlarmSupport {
      * @return
      */
     @Override
-    public AlarmInfo registerInfo(Method method, Class targetClass,Object[] arguments, MonitorAttribute attribute) {
+    public AlarmInfo registerInfo(Method method, Class targetClass,Object[] arguments, DefaultMonitorAttribute attribute) {
         logger.info("开始记录");
         return new AlarmInfoImpl();
     }
@@ -37,7 +37,7 @@ public class AlarmSupportImpl implements AlarmSupport {
      * @param info 可用率信息
      */
     @Override
-    public void functionError(AlarmInfo info) {
+    public void functionError(AlarmInfoImpl info) {
 
 
         if (info.exception()){
@@ -55,7 +55,7 @@ public class AlarmSupportImpl implements AlarmSupport {
      * @param info 报警信息
      */
     @Override
-    public void alarm(AlarmInfo info) {
+    public void alarm(AlarmInfoImpl info) {
         logger.error("有问题了，需要报警");
     }
 
@@ -65,7 +65,7 @@ public class AlarmSupportImpl implements AlarmSupport {
      * @param info
      */
     @Override
-    public void end(AlarmInfo info) {
+    public void end(AlarmInfoImpl info) {
         logger.info("可以结束了");
     }
 
@@ -75,7 +75,7 @@ public class AlarmSupportImpl implements AlarmSupport {
      * @param alarmInfo
      */
     @Override
-    public void ingore(AlarmInfo alarmInfo) {
+    public void ingore(AlarmInfoImpl alarmInfo) {
         logger.warn("忽略异常情况：{}");
 
     }

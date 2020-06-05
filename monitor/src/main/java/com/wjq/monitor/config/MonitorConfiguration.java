@@ -22,6 +22,7 @@ import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -34,12 +35,14 @@ import java.util.List;
  * @date 2020/5/29
  */
 @Configuration
-@ConditionalOnProperty(name = "monitor.enable", havingValue = "true")
+@EnableConfigurationProperties(MonitorEnable.class)
+@ConditionalOnProperty(prefix = MonitorEnable.PRE,name = "enable", havingValue = "true")
 public class MonitorConfiguration {
 
+    private static final String MONITOR_PRE = "monitor";
 
     @Bean
-    @ConfigurationProperties(prefix = "monitor")
+    @ConfigurationProperties(prefix = MONITOR_PRE)
     @ConditionalOnMissingBean
     public MonitorConfig monitorConfig(){
         return new MonitorConfig();
@@ -47,7 +50,7 @@ public class MonitorConfiguration {
 
 
     @Bean
-    @ConditionalOnProperty(prefix = "monitor", name = "expression")
+    @ConditionalOnProperty(prefix = MONITOR_PRE, name = "expression")
     public MonitorPointcutAdapter expressionPointcut(MonitorConfig monitorConfig) {
         AspectJExpressionPointcut pointCut = new AspectJExpressionPointcut();
         pointCut.setExpression(monitorConfig.getExpression());
@@ -55,7 +58,7 @@ public class MonitorConfiguration {
     }
 
     @Bean
-    @ConditionalOnProperty(prefix = "monitor", name = "annotation")
+    @ConditionalOnProperty(prefix = MONITOR_PRE, name = "annotation")
     public MonitorPointcutAdapter annotationMatchingPointcut(MonitorConfig monitorConfig, ObjectProvider<CandidateClassFilter> classFilter) {
         if (classFilter.getIfAvailable() != null){
             Pointcut pointcut = new MonitorAnnotationPointcut(monitorConfig.getAnnotation(),classFilter.getIfAvailable());

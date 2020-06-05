@@ -16,6 +16,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import static org.springframework.util.ObjectUtils.isEmpty;
 
 /**
+ * 监控注解数据源
  * @author wangjianqiang24
  * @date 2020/5/29
  */
@@ -148,8 +149,6 @@ public class AnnotationMonitorAttributeSource implements MonitorAttributeSource 
                     defaultMonitorAttribute.setIngoreErrors(monitorConfig.getIngoreExceptions());
                 }
             }
-
-
         }
     }
 
