@@ -28,7 +28,6 @@ public class SharedLock {
     public static void main(String[] args) {
         SharedLock sharedLock = new SharedLock();
         //sharedLock.test();
-
         sharedLock.testReadWrite();
 
     }

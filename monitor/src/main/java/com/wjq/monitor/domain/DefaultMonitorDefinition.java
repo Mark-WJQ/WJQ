@@ -41,7 +41,9 @@ public class DefaultMonitorDefinition implements MonitorDefinition {
 
 
     /**
-     * 报警code
+     * 报警code,
+     * code也可以自定义表达式，匹配规则需要自己扩展
+     * {@link MonitorAttribute#alarmCode(String)}
      *
      * @return
      */
@@ -50,7 +52,8 @@ public class DefaultMonitorDefinition implements MonitorDefinition {
 
     /**
      * 记录可用率code
-     *
+     * code也可以自定义表达式，匹配规则需要自己扩展
+     * {@link MonitorAttribute#errorCode(String)} (String)}
      * @return
      */
     private String[] errorCodes;
@@ -58,7 +61,9 @@ public class DefaultMonitorDefinition implements MonitorDefinition {
 
     /**
      * 忽略code
-     *
+     * code也可以自定义表达式，匹配规则需要自己扩展
+     * {@link MonitorAttribute#ingoreCode(String)} (String)} (String)}
+     * 
      * @return
      */
     private String[] ingoreCodes;

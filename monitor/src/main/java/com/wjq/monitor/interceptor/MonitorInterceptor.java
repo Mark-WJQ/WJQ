@@ -66,7 +66,11 @@ public class MonitorInterceptor implements MethodInterceptor {
             }
             throw e;
         } finally {
-            alarmSupport.end(alarmInfo);
+            try {
+                alarmSupport.end(alarmInfo);
+            }catch (Throwable t){
+                logger.error("报警结束异常，请注意：{}",t);
+            }
         }
     }
 
