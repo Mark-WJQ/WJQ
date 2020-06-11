@@ -105,4 +105,12 @@ public @interface Monitor {
     boolean mergeConfig() default true;
 
 
+    /**
+     * 是否手动监控
+     * 如果设为 true 则该切面不做任何记录，将直接调用方法
+     * @return
+     */
+    boolean manual() default false;
+
+
 }

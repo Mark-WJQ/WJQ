@@ -7,6 +7,8 @@ package com.wjq.monitor.domain;
 public class DefaultMonitorDefinition implements MonitorDefinition {
 
 
+
+
     /**
      * 记录主键
      */
@@ -67,6 +69,8 @@ public class DefaultMonitorDefinition implements MonitorDefinition {
      * @return
      */
     private String[] ingoreCodes;
+
+    private boolean manual;
 
 
     @Override
@@ -133,6 +137,17 @@ public class DefaultMonitorDefinition implements MonitorDefinition {
         return ingoreCodes;
     }
 
+    /**
+     * 是否手动监控
+     * 如果设为 true 则该切面不做任何记录，将直接调用方法
+     *
+     * @return
+     */
+    @Override
+    public boolean manual() {
+        return this.manual;
+    }
+
     public void setIngoreCodes(String[] ingoreCodes) {
         this.ingoreCodes = ingoreCodes;
     }
@@ -147,4 +162,7 @@ public class DefaultMonitorDefinition implements MonitorDefinition {
         return this.appName;
     }
 
+    public void setManual(boolean manual) {
+        this.manual = manual;
+    }
 }

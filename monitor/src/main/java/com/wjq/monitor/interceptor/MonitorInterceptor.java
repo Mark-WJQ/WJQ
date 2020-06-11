@@ -55,7 +55,7 @@ public class MonitorInterceptor implements MethodInterceptor {
     @Override
     public Object invoke(MethodInvocation invocation) throws Throwable {
         MonitorAttribute attribute = getAttribute(invocation);
-        if (Objects.isNull(attribute)) {
+        if (Objects.isNull(attribute) || attribute.manual()) {
             return invocation.proceed();
         }
         AlarmInfo alarmInfo = registerInfo(invocation, attribute);

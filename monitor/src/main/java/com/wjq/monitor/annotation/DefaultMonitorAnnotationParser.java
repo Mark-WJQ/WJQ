@@ -44,6 +44,7 @@ public class DefaultMonitorAnnotationParser implements MonitorAnnotationParser {
     protected MonitorAttribute parseMonitorAnnotation(AnnotationAttributes attributes) {
 
         DefaultMonitorAttribute monitorAttribute = new DefaultMonitorAttribute();
+        monitorAttribute.setManual(attributes.getBoolean("manual"));
         monitorAttribute.setAlarmCodes(attributes.getStringArray("alarmCodes"));
         monitorAttribute.setAlarms((Class<? extends Throwable>[]) attributes.getClassArray("alarms"));
         monitorAttribute.setErrors((Class<? extends Throwable>[]) attributes.getClassArray("errors"));
