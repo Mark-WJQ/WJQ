@@ -63,5 +63,4 @@ public interface MonitorAttribute extends MonitorDefinition {
      */
     boolean mergeConfig();
 
-
 }

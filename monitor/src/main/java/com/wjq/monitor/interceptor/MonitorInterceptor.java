@@ -12,6 +12,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.aop.support.AopUtils;
 import org.springframework.util.Assert;
 
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
 import java.util.Objects;
 
 /**
@@ -52,34 +54,66 @@ public class MonitorInterceptor implements MethodInterceptor {
 
     @Override
     public Object invoke(MethodInvocation invocation) throws Throwable {
-        MonitorAttribute attribute = attributeSource.getMonitorAttribute(invocation.getMethod(), AopUtils.getTargetClass(invocation.getThis()));
-        AlarmInfo alarmInfo = alarmSupport.registerInfo(invocation.getMethod(), AopUtils.getTargetClass(invocation.getThis()), invocation.getArguments(), attribute);
+        MonitorAttribute attribute = getAttribute(invocation);
+        if (Objects.isNull(attribute)) {
+            return invocation.proceed();
+        }
+        AlarmInfo alarmInfo = registerInfo(invocation, attribute);
+        if (Objects.isNull(alarmInfo)) {
+            return invocation.proceed();
+        }
         try {
             Object result = invocation.proceed();
-            if (Objects.nonNull(result) && result instanceof Result && Objects.nonNull(attribute) && Objects.nonNull(alarmInfo)) {
+            if (Objects.nonNull(result) && result instanceof Result) {
                 handleCode(attribute, (Result) result, alarmInfo);
             }
             return result;
         } catch (Throwable e) {
-            if (Objects.nonNull(attribute) && Objects.nonNull(alarmInfo)) {
-                handleError(attribute, e, alarmInfo);
-            }
+            handleError(attribute, e, alarmInfo);
             throw e;
         } finally {
-            try {
-                alarmSupport.end(alarmInfo);
-            }catch (Throwable t){
-                logger.error("报警结束异常，请注意：{}",t);
-            }
+            end(alarmInfo);
         }
     }
 
+    private void end(AlarmInfo alarmInfo) {
+        try {
+            alarmSupport.end(alarmInfo);
+        } catch (Throwable t) {
+            logger.error("监控结束异常，请注意：{}", t);
+        }
+    }
+
+    private AlarmInfo registerInfo(MethodInvocation invocation, MonitorAttribute attribute) {
+        AlarmInfo alarmInfo = null;
+        try {
+            alarmInfo = alarmSupport.registerInfo(invocation.getMethod(), AopUtils.getTargetClass(invocation.getThis()), invocation.getArguments(), attribute);
+        } catch (Throwable t) {
+            logger.error("注册监控信息异常", t);
+        }
+        return alarmInfo;
+    }
+
+
+    private MonitorAttribute getAttribute(MethodInvocation invocation) {
+        Method method = invocation.getMethod();
+        if (!Modifier.isPublic(method.getModifiers()) || Modifier.isStatic(method.getModifiers()) || Modifier.isFinal(method.getModifiers())){
+            return null;
+        }
+        MonitorAttribute attribute = null;
+        try {
+            attribute = attributeSource.getMonitorAttribute(method, AopUtils.getTargetClass(invocation.getThis()));
+        } catch (Throwable t) {
+            logger.error("获取监控属性时异常", t);
+        }
+        return attribute;
+    }
 
     /**
      * 处理异常
      *
-     * @param attribute  属性
-     * @param e 异常
+     * @param attribute 属性
+     * @param e         异常
      * @param alarmInfo 注册报警信息
      */
     private void handleError(MonitorAttribute attribute, Throwable e, AlarmInfo alarmInfo) {

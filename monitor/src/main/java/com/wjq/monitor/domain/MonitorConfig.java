@@ -69,7 +69,6 @@ public class MonitorConfig {
      */
     private String[] ingoreCodes;
 
-
     public String getExpression() {
         return expression;
     }

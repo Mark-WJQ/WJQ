@@ -8,6 +8,7 @@ import org.springframework.core.annotation.AnnotationUtils;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
 
 /**
  * 监控注解切点
@@ -54,9 +55,14 @@ public class MonitorAnnotationPointcut extends StaticMethodMatcherPointcut {
      */
     @Override
     public boolean matches(Method method, Class<?> targetClass) {
+       if (!Modifier.isPublic(method.getModifiers()) || Modifier.isStatic(method.getModifiers()) || Modifier.isFinal(method.getModifiers())){
+           return false;
+       }
+
         if (AnnotatedElementUtils.hasAnnotation(targetClass, this.annotationType)){
             return true;
         }
+
         return matcher.matches(method,targetClass);
     }
 
