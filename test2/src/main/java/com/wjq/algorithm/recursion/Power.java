@@ -76,6 +76,31 @@ public class Power {
 
 
 
+	//使用移位实现
+	String shift(int s){
+		if (s == 0){
+			return "0";
+		}
+		if (s == 1){
+			return "";
+		}
+		String result = "";
+		int base = s;
+		int i= 0;
+		while (base > 0){
+			if ((base&1) == 1){
+				String p = shift(i);
+				result += ("".equals(p)?"2":"2(" +p + ")")+"+";
+			}
+			i++;
+		}
+
+		return result;
+
+
+	}
+
+
 
 
 

@@ -8,18 +8,25 @@ public class CompletableFutureTest {
 
     private static ExecutorService service = Executors.newFixedThreadPool(3);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
 
         CompletableFutureTest test = new CompletableFutureTest();
-        //test.test();
-        test.testNew();
+        CompletableFuture future = test.test().thenApply(o->o);
+
+        System.out.println("---------------");
+        //CompletableFuture<String> future = test.testNew().thenApply((o) -> (String)o);
+        System.out.println(future.get());
+        //System.out.println(future.get());
         service.shutdown();
 
     }
 
 
 
-    public void testNew(){
+    public CompletableFuture testNew(){
+
+
+
 
         CompletableFuture future = new CompletableFuture();
 
@@ -37,8 +44,8 @@ public class CompletableFutureTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
         future.complete("hahahh");
+        return future;
 
 
 
@@ -47,7 +54,7 @@ public class CompletableFutureTest {
 
 
 
-    public void test(){
+    public CompletableFuture test(){
 
 
         CompletableFuture future = CompletableFuture.runAsync(new R1(),service);
@@ -59,16 +66,12 @@ public class CompletableFutureTest {
         });
 
 
-        try {
-            TimeUnit.SECONDS.sleep(3);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
 
-        future.complete("dhhdhdh");
+        //future.complete("dhhdhdh");
 
         System.out.println("main thread");
+        return future;
 
     }
 
@@ -103,7 +106,6 @@ public class CompletableFutureTest {
 
 
     class R1 implements Runnable{
-
 
         @Override
         public void run() {

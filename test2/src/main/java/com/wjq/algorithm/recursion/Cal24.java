@@ -44,7 +44,7 @@ public class Cal24 {
 	public static void main(String[] args) {
 
 
-		double[] a = new double[]{4,0,6,0};
+		double[] a = new double[]{4,0,6,1};
 		Cal24 cal24 = new Cal24();
 
 		System.out.println(cal24.cal24(a,4));
