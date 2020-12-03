@@ -1,28 +1,5 @@
-# Initial page
-
-## Getting Super Powers
-
-Becoming a super hero is a fairly straight forward process:
-
-```
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-
-```
-apple js
-
-```
+### 一些简单的尝试
+ 这个仓库用来存放一些自己学习是写的一些代码，包括算法，数据结构以及一些框架验证性代码
 
 
 
