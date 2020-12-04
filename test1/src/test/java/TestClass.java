@@ -1,7 +1,10 @@
+import javax.servlet.ServletContext;
+
 import com.test.wjq.controller.FirstClass;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.ContextConfiguration;
@@ -12,9 +15,6 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-
-import javax.servlet.ServletContext;
-import java.math.BigDecimal;
 
 /**
  * Created by Administrator on 2016/11/25.
@@ -46,13 +46,5 @@ public class TestClass {
             e.printStackTrace();
         }
     }
-
-
-    public static void main(String[] args){
-        //TestStaticClass.getNumber();
-        //TestStaticClass1.getNumber();
-        double d = new BigDecimal("1.34222").doubleValue();
-        System.out.println(new BigDecimal(d));
-    }
-
+    
 }
