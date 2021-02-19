@@ -18,7 +18,7 @@ public class ForkJoin {
 
     public static void testForkJoin() throws ExecutionException, InterruptedException {
 
-        ForkJoinPool pool = new ForkJoinPool(2);
+        ForkJoinPool pool = new ForkJoinPool(3);
 
         int[] array = new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16};
         ForkJoinTask<Integer> task = new TestForkJoinTask(0,array.length-1,array);
@@ -46,6 +46,8 @@ public class ForkJoin {
         /**
          * The main computation performed by this task.
          *
+
+
          * @return the result of the computation
          */
         @Override
