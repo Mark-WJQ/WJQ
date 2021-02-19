@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>test1</module>
-        <module>test2</module>
+        <module>java-base</module>
         <module>RPCTest</module>
         <module>wetest</module>
         <module>spring-test</module>
@@ -21,8 +21,10 @@
         <module>instrument</module>
         <module>Netty-wjq</module>
         <module>junit5-wjq</module>
-        <module>monitor</module>
-    </modules>
+        <module>springboot-demo</module>
+        <module>class-byte</module>
+		<module>encrypt</module>
+	</modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>5.2.6.RELEASE</spring.version>
@@ -40,21 +42,20 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>[24.1.1,)</version>
+            </dependency>
             <dependency>
                 <!-- Import dependency management from Spring Boot -->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.3.0.RELEASE</version>
+                <version>2.3.4.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>4.12</version>
-                <scope>test</scope>
-            </dependency>
-
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aspects</artifactId>
@@ -247,22 +248,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-   <!-- <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.3.0.RELEASE</version>
-                <executions>
-					<execution>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-					</execution>
-				</executions>
-            </plugin>
-        </plugins>
-    </build>-->
 
 </project>
