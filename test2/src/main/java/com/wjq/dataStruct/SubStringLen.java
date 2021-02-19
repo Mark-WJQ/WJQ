@@ -1,5 +1,6 @@
 package com.wjq.dataStruct;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -36,6 +37,47 @@ public class SubStringLen {
     public static void main(String[] args) {
         System.out.println(maxSub("au"));
     }
+
+
+
+    static class Solution {
+        public static int lengthOfLongestSubstring(String s) {
+
+            if (s.length() == 0 || s.length() == 1){
+                return s.length();
+            }
+
+            char[] chars = s.toCharArray();
+            int[] arr = new int[128];
+            Arrays.fill(arr,-1);
+
+            int start = 0;
+            int end = 0;
+            int l = start - end;
+            for(int i = 0; i < chars.length;i++){
+                char c = chars[i];
+                if(arr[c] == -1){
+                    arr[c] = i;
+                }
+                else {
+                    if (i - arr[c] > l){
+                        start = arr[c];
+                        end = i - 1;
+                        l = end - start + 1;
+                    }
+                    arr[c] = i;
+                }
+            }
+            return l;
+        }
+
+
+        public static void main(String[] args) {
+            lengthOfLongestSubstring("abc");
+        }
+    }
+
+
 
 
 }
