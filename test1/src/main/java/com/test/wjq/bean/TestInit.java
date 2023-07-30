@@ -1,5 +1,9 @@
 package com.test.wjq.bean;
 
+import org.springframework.web.bind.annotation.GetMapping;
+
+import java.lang.annotation.Annotation;
+
 public class TestInit {
 
 
@@ -21,6 +25,20 @@ public class TestInit {
         public static int b = a;
 
     }
+
+
+    @interface IA{
+
+        /*interface getI() default {
+        }*/
+        Class getC() default Comparable.class;
+    }
+
+
+
+
+
+
 
 
     public static void main(String[] args) {

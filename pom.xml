@@ -24,7 +24,9 @@
         <module>springboot-demo</module>
         <module>class-byte</module>
 		<module>encrypt</module>
-	</modules>
+        <module>Spring-groovy</module>
+        <module>evoSuite</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>5.2.6.RELEASE</spring.version>
@@ -46,7 +48,7 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>[24.1.1,)</version>
+                <version>32.1.1-jre</version>
             </dependency>
             <dependency>
                 <!-- Import dependency management from Spring Boot -->
@@ -246,7 +248,7 @@
                 <scope>test</scope>
                 <version>${junit.platform}</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
-
 </project>
