@@ -1,5 +1,4 @@
-namespace java thrift.generated
-namespace py py.thrift.gererated
+namespace java com.wjq.netty.thrift.generated.a
 
 
 
