@@ -25,12 +25,11 @@ public class MyServer {
 
         try{
             ServerBootstrap serverBootstrap = new ServerBootstrap();
-            serverBootstrap.group(boos,worker).channel(NioServerSocketChannel.class).option(ChannelOption.SO_KEEPALIVE,true).handler(new LoggingHandler(LogLevel.INFO)).childHandler(new MyServerInitializer());
-
-
-
-
-
+            serverBootstrap.group(boos,worker).
+                    channel(NioServerSocketChannel.class).
+                    option(ChannelOption.SO_KEEPALIVE,true).
+                    handler(new LoggingHandler(LogLevel.INFO)).
+                    childHandler(new MyServerInitializer());
             ChannelFuture channelFuture = serverBootstrap.bind(8899).sync();
             channelFuture.channel().closeFuture().sync();
         } catch (InterruptedException e) {
