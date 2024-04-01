@@ -14,14 +14,17 @@ import java.nio.channels.SocketChannel;
 public class Client {
 
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
 
         SocketChannel socketChannel = SocketChannel.open();
         socketChannel.connect(new InetSocketAddress("localhost",9999));
        ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
+       byteBuffer.putInt(1024);
        byteBuffer.put("hello world ".getBytes());
-        socketChannel.write(byteBuffer);
-
+        socketChannel.write(ByteBuffer.wrap("hello world！".getBytes()));
+        //socketChannel.write(byteBuffer);
+        socketChannel.close();
+        Thread.sleep(1000);
 
 
     }

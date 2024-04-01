@@ -17,7 +17,6 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.42.Final</version>
         </dependency>
         <dependency>
             <groupId>com.google.protobuf</groupId>
@@ -108,7 +107,9 @@
 -->
                     <generator>java</generator>
                     <thriftSourceRoot>${basedir}/src/main/resources/thrift</thriftSourceRoot>
+<!--
                     <outputDirectory>${project.build.sourceDirectory}</outputDirectory>
+-->
 <!--
                     <thriftTestSourceRoot></thriftTestSourceRoot>
 -->
